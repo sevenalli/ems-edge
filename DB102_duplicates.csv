@@ -1,0 +1,409 @@
+Adresse,Nom,Type,Commentaire,Adresse_ABS,Categorie
+0.0,_00_P_actual_R,REAL,Puissance en kW Groupe électrogène diesel 1,%DB102.DBD0,Télémesure
+4.0,_00_P_actual_measured,REAL,Puissance mesurée en kW Groupe électrogène diesel 2,%DB102.DBD4,Télémesure
+8.0,_00_P_actual_measured_I,INT,Puissance mesurée en kW INT Groupe électrogène diesel 3,%DB102.DBW8,Télémesure
+10.0,_00_Ua_actual,REAL,Tension de sortie Simoreg Groupe électrogène diesel,%DB102.DBD10,Télémesure
+14.0,_00_P_act_basis,REAL,Valeur réelle de base pour la puissa nce Groupe électrogène diesel,%DB102.DBD14,Télémesure
+18.0,_00_Gen_PT100_1,REAL,Alternateur: valeur de température 1 PT100 Groupe électrogène diesel 1,%DB102.DBD18,Télémesure
+22.0,_00_Gen_PT100_2,REAL,Alternateur: valeur de température 2 PT100 Groupe électrogène diesel 2,%DB102.DBD22,Télémesure
+26.0,_02_INF1_DC_Link_voltage,REAL,Unité d'alimentation 1: tension circuit intermédiaire Unité d’alimentation 1,%DB102.DBD26,Télémesure
+30.0,_02_INF1_DC_Link_current,REAL,Unité d'alimentation 1: courant circuit intermédiaire Unité d’alimentation 1,%DB102.DBD30,Télémesure
+34.0,_02_INF2_DC_Link_voltage,REAL,Unité d'alimentation 2: tension circuit intermédiaire Unité d’alimentation 2,%DB102.DBD34,Télémesure
+38.0,_02_INF2_DC_Link_current,REAL,Unité d'alimentation 2: courant circuit intermédiaire Unité d’alimentation 2,%DB102.DBD38,Télémesure
+42.0,_02_P_act_R_BR_Simoreg,REAL,Puissance active mesurée en kW à partir du Simoreg Unité d’alimentation,%DB102.DBD42,Télémesure
+46.0,_02_BR_Ia_actual,REAL,Valeur réelle du courant Simoreg de freinage Unité d’alimentation,%DB102.DBD46,Télémesure
+50.0,_02_BR_UN_act_Norm_R,REAL,Conversion actuelle tension du résea u Unité d’alimentation,%DB102.DBD50,Télémesure
+54.0,_02_BR_UN_actual_R,REAL,Tension réseau du simoreg de freinag e Unité d’alimentation,%DB102.DBD54,Télémesure
+58.0,_02_BR_FN_actual_R,REAL,Fréquence de réseau Unité d’alimentation,%DB102.DBD58,Télémesure
+62.0,_02_Caps_actual_Power,REAL,Valeur réelle de puissance des Ultra Caps Unité d’alimentation,%DB102.DBD62,Télémesure
+66.0,_02_Caps_actual_P_Gen,REAL,Valeur réelle de puissance alternate ur Unité d’alimentation,%DB102.DBD66,Télémesure
+70.0,_02_Caps_workload_Invert,REAL,Charge du convertisseur Unité d’alimentation,%DB102.DBD70,Télémesure
+74.0,_02_Caps_actual_Voltage,REAL,Tension des Caps Unité d’alimentation,%DB102.DBD74,Télémesure
+78.0,_02_Caps_charge_state,REAL,Etat de charge des Caps Unité d’alimentation,%DB102.DBD78,Télémesure
+82.0,_04_Setpoint_R,REAL,Valeur de consigne réduite pour pompe hydraulique Pompes et compresseurs,%DB102.DBD82,Téléréglage
+86.0,_04_MS2_Y_R,REAL,Générateur de rampe Pompes et compresseurs,%DB102.DBD86,Télémesure
+90.0,_04_MS3_Y_R,REAL,"Val. consigne pompe hydr réduite, mode mise en équipem.: relever/poser flèche Pompes et compresseurs",%DB102.DBD90,Téléréglage
+94.0,_04_Setpoint_Y_R,REAL,Valeur de consigne pompe hydraulique Pompes et compresseurs,%DB102.DBD94,Téléréglage
+98.0,_04_Temp_hydr_R,REAL,Température du système hydraulique Pompes et compresseurs,%DB102.DBD98,Télémesure
+102.0,_04_act_pressure_pump,REAL,Valeur réelle pression de pompe Pompes et compresseurs,%DB102.DBD102,Télémesure
+106.0,_04_act_angle_P1,REAL,Valeur réelle angle de pivotement pompe 1 Pompes et compresseurs 1,%DB102.DBD106,Télémesure
+110.0,_04_act_angle_P2,REAL,Valeur réelle angle de pivotement pompe 2 Pompes et compresseurs 2,%DB102.DBD110,Télémesure
+114.0,_04_act_angle_P3,REAL,Valeur réelle angle de pivotement pompe 3 Pompes et compresseurs 3,%DB102.DBD114,Télémesure
+118.0,_04_act_angle_P4,REAL,Valeur réelle angle de pivotement pompe 4 Pompes et compresseurs 4,%DB102.DBD118,Télémesure
+122.0,_07_Fuel_level_cent_R,REAL,Réservoir de carburant diesel: nivea u de remplissage en % Groupe électrogène diesel,%DB102.DBD122,Télémesure
+126.0,_07_Temp_Diesel_air_R,REAL,Température moteur diesel air de sur alimentation Groupe électrogène diesel,%DB102.DBD126,Télémesure
+130.0,_07_Filter_press_tower,REAL,VAR: valeur réelle surveillance de p ression du filtre Groupe électrogène diesel,%DB102.DBD130,Télémesure
+134.0,_07_Temp_Diesel_water_R,REAL,Température moteur diesel radiateur à eau Groupe électrogène diesel,%DB102.DBD134,Télémesure
+138.0,_11_H_height_limit_POS_R,REAL,Hauteur de levage admissible pour le levage calculée Méc. levage 1 / Méc. retenue,%DB102.DBD138,Télémesure
+142.0,_11_H_height_limit_NEG_R,REAL,Hauteur de levage admissible calculé e pour la descente Méc. levage 1 / Méc. retenue,%DB102.DBD142,Télémesure
+146.0,_11_H_height_perm_cent_R,REAL,Hauteur de levage admissible en pour centage Méc. levage 1 / Méc. retenue,%DB102.DBD146,Télémesure
+150.0,_11_H_limit_POS_1_R,REAL,Montée: présélection hauteur de levage point final 1 P DWON Méc. levage 1 / Méc. retenue,%DB102.DBD150,Télémesure
+154.0,_11_H_limit_NEG_1_R,REAL,Descente: sélection hauteur de levag e point cible 1 w C mw Méc. levage 1 / Méc. retenue,%DB102.DBD154,Télémesure
+158.0,_11_H_limit_POS_2_R,REAL,Montée: présélection hauteur w de levage point final 2 Méc. levage 1 / Méc. retenue,%DB102.DBD158,Télémesure
+162.0,_11_H_limit_NEG_2_R,REAL,Descente: sélection hauteur de levag e point cible 2 Méc. levage 1 / Méc. retenue,%DB102.DBD162,Télémesure
+166.0,_11_H_limit_hoist_perc_R,REAL,Limitation de la hauteur de levage : limitation levage en pourcentage Méc. levage 1 / Méc. retenue,%DB102.DBD166,Télémesure
+170.0,_11_H_limit_lower_perc_R,REAL,Limitation de la hauteur de levage : limitation descente en pourcentage Méc. levage 1 / Méc. retenue,%DB102.DBD170,Télémesure
+174.0,_11_MS1_X_R,REAL,Ordre: lire et adapter valeur de con signe Méc. levage 1 / Méc. retenue 1,%DB102.DBD174,Télémesure
+178.0,_11_MS1_Y_R,REAL,Ordre: lire et adapter valeur de con signe Méc. levage 1 / Méc. retenue 2,%DB102.DBD178,Télémesure
+182.0,_11_MS2_Y_R,REAL,Réduire valeur de consigne vitesse pour réduction puissance Méc. levage 1 / Méc. retenue,%DB102.DBD182,Téléréglage
+186.0,_11_MS3_Y_R,REAL,Calculer valeur consigne vitesse rot ation du méc. levage suivant la charge Méc. levage 1 / Méc. retenue,%DB102.DBD186,Téléréglage
+190.0,_11_MS4_Y_R,REAL,Appliquer val. pré-fin de course et val. cons. commande par à-coups Méc. levage 1 / Méc. retenue,%DB102.DBD190,Télémesure
+194.0,_11_MS5_Y_R,REAL,Impulsion changement de vitesse rédu cteur du méc. de levage Méc. levage 1 / Méc. retenue,%DB102.DBD194,Télémesure
+198.0,_11_MS6_Y_R,REAL,Impulsion de démarrage Méc. levage 1 / Méc. retenue,%DB102.DBD198,Télémesure
+202.0,_11_MS8_Y_R,REAL,Montée / descente jusqu’au point cible valeur de consigne réduite Méc. levage 1 / Méc. retenue,%DB102.DBD202,Téléréglage
+206.0,_11_N_setpoint_R,REAL,Transmission de consigne à l'entraîn ement en % Méc. levage 1 / Méc. retenue,%DB102.DBD206,Téléréglage
+210.0,_11_N_ramp_actual_R,REAL,Temps réelle de générateur de rampe % Méc. levage 1 / Méc. retenue,%DB102.DBD210,Télémesure
+214.0,_11_V_actual_R,REAL,Vitesse du méc. levage en m/min Méc. levage 1 / Méc. retenue,%DB102.DBD214,Télémesure
+218.0,_11_N_actual_R,REAL,Valeur réelle vitesse en t/min Méc. levage 1 / Méc. retenue,%DB102.DBD218,Télémesure
+222.0,_11_I_actual_R,REAL,Valeur réelle du courant en A Méc. levage 1 / Méc. retenue,%DB102.DBD222,Télémesure
+226.0,_11_P_actual_R,REAL,Valeur réelle de la puissance en kW Méc. levage 1 / Méc. retenue,%DB102.DBD226,Télémesure
+230.0,_11_UM_actual_R,REAL,Valeur réelle tension moteur en V Méc. levage 1 / Méc. retenue,%DB102.DBD230,Télémesure
+234.0,_11_fN_actual_R,REAL,Valeur réelle de la fréquence secteu r en Hz Méc. levage 1 / Méc. retenue,%DB102.DBD234,Télémesure
+238.0,_11_UA_actual_R,REAL,Valeur réelle de la tension d'induit en V Méc. levage 1 / Méc. retenue,%DB102.DBD238,Télémesure
+242.0,_11_Motor_temp_actual_R,REAL,Valeur réelle de température du moteur en °C Méc. levage 1 / Méc. retenue,%DB102.DBD242,Télémesure
+246.0,_11_H_perm_R,REAL,Hauteur de levage admissible en m Méc. levage 1 / Méc. retenue,%DB102.DBD246,Télémesure
+250.0,_11_H_height_actual_R,REAL,Valeur réelle de la hauteur de levag e en m (codeur absolu) Méc. levage 1 / Méc. retenue,%DB102.DBD250,Télémesure
+254.0,_11_H_height_convert_R,REAL,Valeur réelle de la hauteur de levag e en m (entraînement) Méc. levage 1 / Méc. retenue,%DB102.DBD254,Télémesure
+258.0,_11_V_allow_R1,REAL,Méc. levage: vitesse admissible en m /min Méc. levage 1 / Méc. retenue 1,%DB102.DBD258,Télémesure
+262.0,_11_Press_brake_R,REAL,Pression de service pour le frein du méc. de levage Méc. levage 1 / Méc. retenue,%DB102.DBD262,Télémesure
+266.0,_11_Grab_force,REAL,Force de traction benne pour mécanis me de fermeture Méc. levage 1 / Méc. retenue,%DB102.DBD266,Télémesure
+270.0,_11_V_allow_R,REAL,Méc. levage: vitesse admissible en m /min Méc. levage 1 / Méc. retenue 2,%DB102.DBD270,Télémesure
+274.0,_11_A_actual_R,REAL,Méc. levage: accélération en m/min2 Méc. levage 1 / Méc. retenue,%DB102.DBD274,Télémesure
+278.0,_11_31_limit_test_activ,BOOL,Test de fin de course activé Méc. levage 1 / Méc. retenue,%DB102.DBX278.0,Télésignal
+280.0,_11_Oil_temp_gear_R,REAL,Méc. levage 1: température de l'huil e du réducteur Méc. levage 1 / Méc. retenue,%DB102.DBD280,Télémesure
+284.0,_11_H_height_park,REAL,Hauteur de levage: écart sécurité su ppl. à la tête de flèche stationer grue Méc. levage 1 / Méc. retenue,%DB102.DBD284,Télémesure
+288.0,_11_H_height_sec_actual,REAL,Hauteur de levage: écart de sécurité actuel à la tête de flèche Méc. levage 1 / Méc. retenue,%DB102.DBD288,Télémesure
+292.0,_11_Slack_rope_setpoint,REAL,Valeur de consigne régulation mou de câble transmise á l'entraînement Méc. levage 1 / Méc. retenue,%DB102.DBD292,Téléréglage
+296.0,_11_Mot_temp,REAL,Méc. levage 1: température du moteur en degrés Celsius Méc. levage 1 / Méc. retenue,%DB102.DBD296,Télémesure
+300.0,_11_P_required,REAL,Puissance nécessaire en charge à Vad mis. Méc. levage 1 / Méc. retenue,%DB102.DBD300,Télémesure
+304.0,_11_M_required,REAL,Couple nécessaire en charge à Vadmis . Méc. levage 1 / Méc. retenue,%DB102.DBD304,Télémesure
+308.0,_11_M_required_perc,REAL,Couple nécessaire en % en charge avec Vadmis. Méc. levage 1 / Méc. retenue,%DB102.DBD308,Télémesure
+312.0,_11_n_allow_R,REAL,Mécanisme de levage: vitesse admissi ble en t/min Méc. levage 1 / Méc. retenue,%DB102.DBD312,Télémesure
+316.0,_11_CMD_setp_TC_R,REAL,Valeur de consigne manipulateur pour levage Méc. levage 1 / Méc. retenue,%DB102.DBD316,Téléréglage
+320.0,_11_CMD_setp_TC_I,INT,Manipulateur méc. levage 1: valeur brute de la valeur de consigne Méc. levage 1 / Méc. retenue,%DB102.DBW320,Téléréglage
+322.0,_12_MS1_X_R,REAL,Ordre: lire et adapter valeur de con signe Méc. levage 2 / Méc. fermeture 1,%DB102.DBD322,Télémesure
+326.0,_12_MS1_Y_R,REAL,Ordre: lire et adapter valeur de con signe Méc. levage 2 / Méc. fermeture 2,%DB102.DBD326,Télémesure
+330.0,_12_N_setpoint_R,REAL,Transmission de consigne à l'entraîn ement en % Méc. levage 2 / Méc. fermeture,%DB102.DBD330,Téléréglage
+334.0,_12_MS5_Y_R,REAL,Impulsion changement de vitesse rédu cteur du méc. de levage Méc. levage 2 / Méc. fermeture,%DB102.DBD334,Télémesure
+338.0,_12_I_control_actual_R,REAL,Sortie régulateur compensation de co urant Méc. levage 2 / Méc. fermeture,%DB102.DBD338,Télémesure
+342.0,_12_H_height_limit_POS_R,REAL,Hauteur de levage admissible pour le levage calculée P DWON Méc. levage 2 / Méc. fermeture,%DB102.DBD342,Télémesure
+346.0,_12_H_height_limit_NEG_R,REAL,Hauteur de levage admissible calculé e pour la descente w C mw Méc. levage 2 / Méc. fermeture,%DB102.DBD346,Télémesure
+350.0,_12_H_height_perm_cent_R,REAL,Hauteur de levage admissible w en pour centage Méc. levage 2 / Méc. fermeture,%DB102.DBD350,Télémesure
+354.0,_12_N_actual_R,REAL,Valeur réelle vitesse en t/min Méc. levage 2 / Méc. fermeture,%DB102.DBD354,Télémesure
+358.0,_12_I_actual_R,REAL,Valeur réelle du courant en A Méc. levage 2 / Méc. fermeture,%DB102.DBD358,Télémesure
+362.0,_12_P_actual_R,REAL,Valeur réelle de la puissance en kW Méc. levage 2 / Méc. fermeture,%DB102.DBD362,Télémesure
+366.0,_12_UA_actual_R,REAL,Valeur réelle de la tension d'induit en V Méc. levage 2 / Méc. fermeture,%DB102.DBD366,Télémesure
+370.0,_12_fN_actual_R,REAL,Valeur réelle de la fréquence secteu r en Hz Méc. levage 2 / Méc. fermeture,%DB102.DBD370,Télémesure
+374.0,_12_Motor_temp_actual_R,REAL,Valeur réelle de température du moteur en °C Méc. levage 2 / Méc. fermeture,%DB102.DBD374,Télémesure
+378.0,_12_H_height_actual_R,REAL,Valeur réelle de la hauteur de levag e en m (codeur absolu) Méc. levage 2 / Méc. fermeture,%DB102.DBD378,Télémesure
+382.0,_12_H_height_convert_R,REAL,Valeur réelle de la hauteur de levag e en m (entraînement) Méc. levage 2 / Méc. fermeture,%DB102.DBD382,Télémesure
+386.0,_12_V_actual_R,REAL,Vitesse du méc. levage en m/min Méc. levage 2 / Méc. fermeture,%DB102.DBD386,Télémesure
+390.0,_12_Press_brake_R,REAL,Pression de service pour le frein du méc. de fermeture Méc. levage 2 / Méc. fermeture,%DB102.DBD390,Télémesure
+394.0,_12_Rigging_setpoint,REAL,Valeur de consigne mode mise en équi pement Méc. levage 2 / Méc. fermeture,%DB102.DBD394,Téléréglage
+398.0,_12_Oil_temp_gear_R,REAL,Méc. levage 2: température de l'huil e du réducteur Méc. levage 2 / Méc. fermeture,%DB102.DBD398,Télémesure
+402.0,_12_Grab_weight,REAL,Poids propre de la benne à quatre câbles Méc. levage 2 / Méc. fermeture,%DB102.DBD402,Télémesure
+406.0,_12_Selected_N_F_Load,REAL,Charge max. pour l'atténuation du champ Méc. levage 2 / Méc. fermeture,%DB102.DBD406,Télémesure
+410.0,_12_Current_Con_setpoint,REAL,Sortie régulateur de compensation du courant Méc. levage 2 / Méc. fermeture,%DB102.DBD410,Téléréglage
+414.0,_12_Pos_Diff_actual,REAL,Différence de position entre méc. de levage 1 et méc. de levage 2 Méc. levage 2 / Méc. fermeture,%DB102.DBD414,Télémesure
+418.0,_12_Grab_s_act_percent,REAL,Course de fermeture de la benne en p ourcentage Méc. levage 2 / Méc. fermeture,%DB102.DBD418,Télémesure
+422.0,_12_Pos_Control_setpoint,REAL,Sortie régulateur de course Méc. levage 2 / Méc. fermeture,%DB102.DBD422,Téléréglage
+426.0,_12_Pos_Ctrl_setp_lim,REAL,Sortie régulateur de course limitée par le manipulateur Méc. levage 2 / Méc. fermeture,%DB102.DBD426,Téléréglage
+430.0,_12_Setpoint_MC,REAL,Valeur de consigne venant du manipul ateur Méc. levage 2 / Méc. fermeture,%DB102.DBD430,Téléréglage
+434.0,_12_Pos_Diff_max_cm,WORD,Différence max. de course de fermetu re en cm Méc. levage 2 / Méc. fermeture,%DB102.DBW434,Télémesure
+436.0,_12_Pos_Diff_actual_cm,WORD,Différence de course actuelle en cm Méc. levage 2 / Méc. fermeture,%DB102.DBW436,Télémesure
+438.0,_12_Selected_current,REAL,Courant maximal pour atténuation du champ Méc. levage 2 / Méc. fermeture,%DB102.DBD438,Télémesure
+442.0,_12_Mot_temp,REAL,Température du moteur en degrés Celsius Méc. levage 2 / Méc. fermeture,%DB102.DBD442,Télémesure
+446.0,_12_CMD_setp_TC_R,REAL,Valeur de consigne manipulateur pour fermeture Méc. levage 2 / Méc. fermeture,%DB102.DBD446,Téléréglage
+450.0,_12_CMD_setp_TC_I,INT,Manipulateur méc. levage 2: valeur brute de la valeur de consigne Méc. levage 2 / Méc. fermeture,%DB102.DBW450,Téléréglage
+452.0,_21_Ramp_setpoint_R,REAL,Temps d’accélération de consigne en secondes Mécanisme d'orientation,%DB102.DBD452,Téléréglage
+456.0,_21_Ramp_setpoint_RND_R,REAL,Temps d’accélération de consigne en secondes arrondi en chiffres entiers Mécanisme d'orientation,%DB102.DBD456,Téléréglage
+460.0,_21_MS1_X_R,REAL,Ordre: lire et adapter valeur de con signe Mécanisme d'orientation 1,%DB102.DBD460,Télémesure
+464.0,_21_MS1_Y_R,REAL,Ordre: lire et adapter valeur de con signe Mécanisme d'orientation 2,%DB102.DBD464,Télémesure
+468.0,_21_Ramp_Rad_min,REAL,Portée min. pour temps d’accélératio n en m Mécanisme d'orientation,%DB102.DBD468,Télémesure
+472.0,_21_MS3_Y_R,REAL,Calculer val. consigne vitesse du mé c. orientation suivant la portée Mécanisme d'orientation,%DB102.DBD472,Téléréglage
+476.0,_21_N_setpoint_R,REAL,Transmission de consigne à l'entraîn ement en % Mécanisme d'orientation,%DB102.DBD476,Téléréglage
+480.0,_21_Press_brake1_R,REAL,Pression de service du frein d’orien tation 1 Mécanisme d'orientation 1,%DB102.DBD480,Télémesure
+484.0,_21_Press_brake2_R,REAL,Pression de service du frein d’orien tation 2 Mécanisme d'orientation 2,%DB102.DBD484,Télémesure
+488.0,_21_Press_brake3_R,REAL,Pression de service du frein d’orien tation 3 Mécanisme d'orientation 3,%DB102.DBD488,Télémesure
+492.0,_21_Press_brake4_R,REAL,Pression de service du frein d’orien tation 4 Mécanisme d'orientation 4,%DB102.DBD492,Télémesure
+496.0,_21_N_actual_R,REAL,Valeur réelle vitesse en t/min Mécanisme d'orientation,%DB102.DBD496,Télémesure
+500.0,_21_I_actual_R,REAL,Valeur réelle du courant en A Mécanisme d'orientation,%DB102.DBD500,Télémesure
+504.0,_21_P_actual_R,REAL,Puissance en kW Mécanisme d'orientation,%DB102.DBD504,Télémesure
+508.0,_21_U_actual_R,REAL,Valeur réelle de tension de moteur en V Mécanisme d'orientation,%DB102.DBD508,Télémesure
+512.0,_21_Motor_temp_actual_R,REAL,Valeur réelle de température du moteur en °C Mécanisme d'orientation,%DB102.DBD512,Télémesure
+516.0,_21_RAD_actual_R,REAL,Angle d'orientation superstructure c hâssis: valeur réelle Mécanisme d'orientation,%DB102.DBD516,Télémesure
+520.0,_21_Ramp_actual_R,REAL,Temps d'accélération effectif en sec . Mécanisme d'orientation,%DB102.DBD520,Télémesure
+524.0,_21_Enc_DEG_actual_R,REAL,Angle d'orientation superstructure / châssis (codeur) Mécanisme d'orientation,%DB102.DBD524,Télémesure
+528.0,_21_MS3_N_R,REAL,Valeur de consigne vitesse moteur Mécanisme d'orientation,%DB102.DBD528,Téléréglage
+532.0,_21_N_max_crane,REAL,Vitesse maxi de la grue en tr/min Mécanisme d'orientation,%DB102.DBD532,Télémesure
+536.0,_21_N_max_reduce_hook,BOOL,Vitesse maxi superstructure réduite pour le service crochet Mécanisme d'orientation,%DB102.DBX536.0,Télésignal
+536.1,_21_N_max_reduc_spreader,BOOL,Vitesse maxi superstructure réduite pour le service spreader P DWON Mécanisme d'orientation,%DB102.DBX536.1,Télésignal
+536.2,_21_N_max_reduce_4R_grab,BOOL,Vitesse maxi superstructure réduite pour le service benne à quatre w C câble mws w Mécanisme d'orientation,%DB102.DBX536.2,Télésignal
+538.0,_21_V_max_actual,REAL,Vitesse maxi à la périphérie en m/mi n réduite Mécanisme d'orientation,%DB102.DBD538,Télémesure
+542.0,_21_N_max_actual,REAL,Vitesse d'orientation maxi en tr/min réduite Mécanisme d'orientation,%DB102.DBD542,Télémesure
+546.0,_21_Mot_1_temp,REAL,Méc.orient.1: température du moteur en degrés Celsius Mécanisme d'orientation 1,%DB102.DBD546,Télémesure
+550.0,_21_Mot_2_temp,REAL,Méc.orient.2: température du moteur en degrés Celsius Mécanisme d'orientation 2,%DB102.DBD550,Télémesure
+554.0,_21_Mot_3_temp,REAL,Méc.orient.3: température du moteur en degrés Celsius Mécanisme d'orientation 3,%DB102.DBD554,Télémesure
+558.0,_21_Mot_4_temp,REAL,Méc.orient.4: température du moteur en degrés Celsius Mécanisme d'orientation 4,%DB102.DBD558,Télémesure
+562.0,_21_V_actual,REAL,Vitesse périphérique actuelle en m/ min. Mécanisme d'orientation,%DB102.DBD562,Télémesure
+566.0,_21_I_actual_R_mot_1,REAL,Courant d’induit moteur d'orientatio n 1 Mécanisme d'orientation 1,%DB102.DBD566,Télémesure
+570.0,_21_I_actual_R_mot_2,REAL,Courant d’induit moteur d'orientatio n 2 Mécanisme d'orientation 2,%DB102.DBD570,Télémesure
+574.0,_21_I_actual_R_mot_3,REAL,Courant d’induit moteur d'orientatio n 3 Mécanisme d'orientation 3,%DB102.DBD574,Télémesure
+578.0,_21_CMD_setp_TC_R,REAL,Valeur de consigne manipulateur pour orientation Mécanisme d'orientation,%DB102.DBD578,Téléréglage
+582.0,_21_CMD_setp_TC_I,INT,Manipulateur méc. d'orientation: valeur brute de la valeur de consigne Mécanisme d'orientation,%DB102.DBW582,Téléréglage
+584.0,_31_Setpoint_X_R,REAL,Méc. de volée: valeur de consigne de vitesse Méc. variation de volée hydraul.,%DB102.DBD584,Téléréglage
+588.0,_31_Setpoint_Y_R,REAL,Trans. consigne du méc. var. volée àla soupape proport. du cyl. de var. volée Méc. variation de volée hydraul.,%DB102.DBD588,Téléréglage
+592.0,_31_RAD_limit_POS_R,REAL,Relevage flèche: calculer la portée admissible Méc. variation de volée hydraul.,%DB102.DBD592,Télémesure
+596.0,_31_RAD_limit_NEG_R,REAL,Abaissement flèche: calculer la portée admissible Méc. variation de volée hydraul.,%DB102.DBD596,Télémesure
+600.0,_31_RAD_limit_NEG_Vi_R,REAL,Abaissement flèche pour la visualisa tion: calculer la portée admissible Méc. variation de volée hydraul.,%DB102.DBD600,Télémesure
+604.0,_31_RAD_perm_cent_R,REAL,Portée admissible en pourcentage Méc. variation de volée hydraul.,%DB102.DBD604,Télémesure
+608.0,_31_MS_I_X_R,REAL,Ordre: lire et adapter valeur de con signe Méc. variation de volée hydraul. 1,%DB102.DBD608,Télémesure
+612.0,_31_MS_I_Y_R,REAL,Ordre: lire et adapter valeur de con signe Méc. variation de volée hydraul. 2,%DB102.DBD612,Télémesure
+616.0,_31_Z_F_Y_R,REAL,Calculer la valeur de consigne en fo nction de la portée Méc. variation de volée hydraul.,%DB102.DBD616,Téléréglage
+620.0,_31_MS_M_Y_R,REAL,Réduction valeur de consigne de la s oupape d’étranglement du méc. de volée Méc. variation de volée hydraul.,%DB102.DBD620,Téléréglage
+624.0,_31_MS_pre_limit_Y_R,REAL,Valeur de consigne vitesse pré-fin de course Méc. variation de volée hydraul.,%DB102.DBD624,Téléréglage
+628.0,_31_Ramp_G_Y_R,REAL,Générateur de rampe Méc. variation de volée hydraul.,%DB102.DBD628,Télémesure
+632.0,_31_V_perm_POS_R,REAL,Vitesse admissible pour relevage dela flèche Méc. variation de volée hydraul. 1,%DB102.DBD632,Télémesure
+636.0,_31_V_perm_NEG_R,REAL,Vitesse admissible pour abaissement de la flèche Méc. variation de volée hydraul. 1,%DB102.DBD636,Télémesure
+640.0,_31_v_actual_R,REAL,Vitesse réelle du cylindre de variat ion de volée Méc. variation de volée hydraul.,%DB102.DBD640,Télémesure
+644.0,_31_s_actual_R,REAL,Valeur réelle course de la soupape p roportionnelle Méc. variation de volée hydraul.,%DB102.DBD644,Télémesure
+648.0,_31_s_diff_R,REAL,Ecart valeur réelle/valeur de consig ne de la soupape proport. du méc.vol ée Méc. variation de volée hydraul.,%DB102.DBD648,Télémesure
+652.0,_31_RAD_actual_R,REAL,Portée en mètres (codeur absolu) Méc. variation de volée hydraul.,%DB102.DBD652,Télémesure
+656.0,_31_V_perm_POS_R1,REAL,Vitesse admissible pour relevage dela flèche Méc. variation de volée hydraul. 2,%DB102.DBD656,Télémesure
+660.0,_31_V_perm_NEG_R1,REAL,Vitesse admissible pour abaissement de la flèche Méc. variation de volée hydraul. 2,%DB102.DBD660,Télémesure
+664.0,_31_CMD_setp_TC_R,REAL,Valeur de consigne manipulateur pour volée Méc. variation de volée hydraul.,%DB102.DBD664,Téléréglage
+668.0,_31_CMD_setp_TC_I,INT,Manipulateur méc. variation de volée : valeur brute de la valeur de consi gne Méc. variation de volée hydraul.,%DB102.DBW668,Téléréglage
+670.0,_31_pressure_rod,REAL,Pression méc. de volée côté fond Méc. variation de volée hydraul.,%DB102.DBD670,Télémesure
+674.0,_31_pressure_piston,REAL,Pression méc. de volée côté tige Méc. variation de volée hydraul.,%DB102.DBD674,Télémesure
+678.0,_41_Travel_setpoint_R,REAL,Translation: valeur de consigne Méc. translation électrique,%DB102.DBD678,Téléréglage
+682.0,_41_F_setpoint_R,REAL,Consigne de fréquence en Hz Méc. translation électrique,%DB102.DBD682,Téléréglage
+686.0,_41_N_actual_R,REAL,Valeur réelle vitesse en t/min Méc. translation électrique,%DB102.DBD686,Télémesure
+690.0,_41_V_actual_R,REAL,Valeur réelle de vitesse en m/ min. Méc. translation électrique,%DB102.DBD690,Télémesure
+694.0,_41_IO_actual_R,REAL,Valeur réelle du courant en A Méc. translation électrique,%DB102.DBD694,Télémesure
+698.0,_41_UD_actual_R,REAL,Tension du circuit intermédiaire enV Méc. translation électrique,%DB102.DBD698,Télémesure
+702.0,_41_UO_actual_R,REAL,Tension de sortie en V Méc. translation électrique,%DB102.DBD702,Télémesure
+706.0,_41_Travel_Position,REAL,Position réelle méc. translation Méc. translation électrique,%DB102.DBD706,Télémesure
+710.0,_41_MS1_X_R,REAL,Ordre: lire et adapter valeur de con signe Méc. translation électrique 1,%DB102.DBD710,Télémesure
+714.0,_41_MS1_Y_R,REAL,Ordre: lire et adapter valeur de con signe Méc. translation électrique 2,%DB102.DBD714,Télémesure
+718.0,_42_Travel_Setpoint_R,REAL,Valeur de consigne translation Méc. translation méc.-hydraul.,%DB102.DBD718,Téléréglage
+722.0,_42_Setpoint_Travel_Y_R,REAL,Translation . entrée de la valeur de consigne générateur de rampe Méc. translation méc.-hydraul.,%DB102.DBD722,Téléréglage
+726.0,_42_Brake_Setpoint_R,REAL,Valeur de consigne freinage P DWON Méc. translation méc.-hydraul.,%DB102.DBD726,Téléréglage
+730.0,_42_Setpoint_Brake_Y_R,REAL,Valeur de consigne freinage avant gé nérateur de rampe w C mw Méc. translation méc.-hydraul.,%DB102.DBD730,Téléréglage
+734.0,_42_MS11_X_R,REAL,Ordre: lire et adapter val. w consigne pour manipulateur transl. cab. de tour Méc. translation méc.-hydraul.,%DB102.DBD734,Téléréglage
+738.0,_42_MS21_X_R,REAL,Ordre: lire et adapter val. consigne pour manipulateur transl. cab. conduite Méc. translation méc.-hydraul.,%DB102.DBD738,Téléréglage
+742.0,_42_MS31_Y_R,REAL,Activer pré-fin de course Méc. translation méc.-hydraul. 1,%DB102.DBD742,Télémesure
+746.0,_42_MS32_Y_R,REAL,Activer pré-fin de course Méc. translation méc.-hydraul. 2,%DB102.DBD746,Télémesure
+750.0,_42_MS13_X_R,REAL,Ordre: lire et adapter valeur de con signe Méc. translation méc.-hydraul. 1,%DB102.DBD750,Télémesure
+754.0,_42_MS23_X_R,REAL,Ordre: lire et adapter valeur de con signe Méc. translation méc.-hydraul. 2,%DB102.DBD754,Télémesure
+758.0,_42_MS33_Y_R,REAL,Activer pré-fin de course Méc. translation méc.-hydraul. 3,%DB102.DBD758,Télémesure
+762.0,_42_Press_service_brake,REAL,Interrupteur à pression du frein de service Méc. translation méc.-hydraul.,%DB102.DBD762,Télémesure
+766.0,_42_Press_monitoring,REAL,Interrupteur à pression de l’accumul ateur de pression Méc. translation méc.-hydraul.,%DB102.DBD766,Télémesure
+770.0,_42_Press_parking_brake,REAL,Interrupteur à pression du frein de stationnement Méc. translation méc.-hydraul.,%DB102.DBD770,Télémesure
+774.0,_46_Steer_Setpoint_R,REAL,Transmission de consigne pour l’entr ée du générateur de rampe de directi on Système de direction,%DB102.DBD774,Téléréglage
+778.0,_46_Setpoint_Steer_Y_R,REAL,Transmission de consigne pour la dir ection Système de direction,%DB102.DBD778,Téléréglage
+782.0,_46_MS12_X_R,REAL,Ordre: lire et adapter valeur de con signe Système de direction 1,%DB102.DBD782,Télémesure
+786.0,_46_MS22_X_R,REAL,Ordre: lire et adapter valeur de con signe Système de direction 2,%DB102.DBD786,Télémesure
+790.0,_51_spreader_typ,INT,"Type de spreader: 1=20,30,35,40', 2= 20,30,40,45', 3=20,30,40' Spreader",%DB102.DBW790,Télémesure
+792.0,_53_CTU_CV_I1,INT,Valeur de comptage:commande de démar rage enrouleur à câble flèche pour r edémar. Enrouleur à câble de flèche,%DB102.DBW792,Télécommunication
+794.0,_53_Res_int1,INT,Enrouleur à câble de flèche 1,%DB102.DBW794,Télémesure
+796.0,_53_N_actual_R,REAL,Valeur réelle vitesse en t/min Enrouleur à câble de flèche,%DB102.DBD796,Télémesure
+800.0,_53_N_Calc_Setvalue_R,REAL,Valeur de consigne de vitesse calcul ée Enrouleur à câble de flèche,%DB102.DBD800,Téléréglage
+804.0,_53_n_Set_act_Diff_R,REAL,Différence valeur réelle n / valeur de consigne n Enrouleur à câble de flèche,%DB102.DBD804,Téléréglage
+808.0,_53_Torq_from_Drive,REAL,Valeur réelle du couple venant de l' entraînement Enrouleur à câble de flèche,%DB102.DBD808,Télémesure
+812.0,_53_I_actual,REAL,Courant apparent Enrouleur à câble de flèche,%DB102.DBD812,Télémesure
+816.0,_53_n_Setp_virt_PT1,REAL,Valeur antérieure opérateur PT1 : li ssage Enrouleur à câble de flèche,%DB102.DBD816,Téléréglage
+820.0,_53_INF1_DC_Link_voltage,REAL,Unité d'alimentation 1: tension circuit intermédiaire Enrouleur à câble de flèche 1,%DB102.DBD820,Télémesure
+824.0,_53_INF1_DC_Link_current,REAL,Unité d'alimentation 1: courant circuit intermédiaire Enrouleur à câble de flèche 1,%DB102.DBD824,Télémesure
+828.0,_53_INF2_DC_Link_voltage,REAL,Unité d'alimentation 2: tension circuit intermédiaire Enrouleur à câble de flèche 2,%DB102.DBD828,Télémesure
+832.0,_53_INF2_DC_Link_current,REAL,Unité d'alimentation 2: courant circuit intermédiaire Enrouleur à câble de flèche 2,%DB102.DBD832,Télémesure
+836.0,_53_INF_Res_1,REAL,Enrouleur à câble de flèche 2,%DB102.DBD836,Télémesure
+840.0,_53_INF_Res_2,REAL,Enrouleur à câble de flèche 3,%DB102.DBD840,Télémesure
+844.0,_53_INF_Res_3,REAL,Enrouleur à câble de flèche 4,%DB102.DBD844,Télémesure
+848.0,_53_Firmware_CU,DINT,État du firmware actuel CU1 Enrouleur à câble de flèche,%DB102.DBD848,Télémesure
+852.0,_53_Mot_temp,REAL,Température du moteur en degrés Celsius Enrouleur à câble de flèche,%DB102.DBD852,Télémesure
+856.0,Cycle_Time_R,REAL,Temps de cycle effectif,%DB102.DBD856,Télémesure
+860.0,_61_B11_Angle_X_R,REAL,Calage: angle de l’axe X Equipements de sécurité 1,%DB102.DBD860,Télémesure
+864.0,_61_B11_Angle_Y_R,REAL,Calage: angle de l’axe Y Equipements de sécurité 1,%DB102.DBD864,Télémesure
+868.0,_61_B12_Angle_X_R,REAL,Calage: angle de l’axe X Equipements de sécurité 2,%DB102.DBD868,Télémesure
+872.0,_61_B12_Angle_Y_R,REAL,Calage: angle de l’axe Y Equipements de sécurité 2,%DB102.DBD872,Télémesure
+876.0,_61_Bruttoload_PT1_Y_n_R,REAL,Lissage charge brute Equipements de sécurité,%DB102.DBD876,Télémesure
+880.0,_61_RAD_PT1_Y_n_R,REAL,Lissage de la portée Equipements de sécurité,%DB102.DBD880,Télémesure
+884.0,_61_B1_RAD_Setvalue_R,REAL,Position de la flèche Equipements de sécurité,%DB102.DBD884,Télémesure
+888.0,_61_Rad_S_R,REAL,Portée calculée Equipements de sécurité,%DB102.DBD888,Télémesure
+892.0,_61_Wind_actual_R,REAL,Vitesse du vent valeur réelle Equipements de sécurité,%DB102.DBD892,Télémesure
+896.0,_61_locking_area,BOOL,Superstructure en position brochage Equipements de sécurité,%DB102.DBX896.0,Téléalarme
+896.1,_61_straight_pos,BOOL,Superstructure en position 180° Equipements de sécurité,%DB102.DBX896.1,Téléalarme
+898.0,_63_Rad_sec_actual,REAL,Géométrie de la grue: rayon actuel d istance de sécurité Contrôleur d’état de charge,%DB102.DBD898,Télémesure
+902.0,_63_Bruttoload_R,REAL,Charge brute en tonnes Contrôleur d’état de charge,%DB102.DBD902,Télémesure
+906.0,_63_Taraload_R,REAL,Tare de la charge en tonnes Contrôleur d’état de charge,%DB102.DBD906,Télémesure
+910.0,_63_Nettoload_R,REAL,Charge nette en tonnes Contrôleur d’état de charge,%DB102.DBD910,Télémesure
+914.0,_63_11_Load_DMS_1_R,REAL,Charge brute méc. levage 1 jauge DMS 1 Contrôleur d’état de charge 1,%DB102.DBD914,Télémesure
+918.0,_63_11_Load_DMS_2_R,REAL,Charge brute méc. levage 1 jauge DMS 2 Contrôleur d’état de charge 2,%DB102.DBD918,Télémesure
+922.0,_63_11_Diff_DMS_1_2,REAL,Charge brute méc. levage 1: différen ce jauges DMS 1 + 2 Contrôleur d’état de charge 1,%DB102.DBD922,Télémesure
+926.0,_63_Perm_Bruttoload_R,REAL,Charge brute en tonnes admissible Contrôleur d’état de charge,%DB102.DBD926,Télémesure
+930.0,_63_Perm_Bruttoload_RX_R,REAL,Charge brute en tonnes en portée + x -mètres Contrôleur d’état de charge,%DB102.DBD930,Télémesure
+934.0,_63_RAD_Load_max_R,REAL,Portée: régime admissible en fonctio n de la charge Contrôleur d’état de charge,%DB102.DBD934,Télémesure
+938.0,_63_RAD_actual_R,REAL,Portée_en mètres Contrôleur d’état de charge,%DB102.DBD938,Télémesure
+942.0,_63_Perm_Nettoload_R,REAL,Charge nette admissible en tonnes Contrôleur d’état de charge,%DB102.DBD942,Télémesure
+946.0,_63_Bruttoload_relativ_R,REAL,Charge brute relative P DWON Contrôleur d’état de charge,%DB102.DBD946,Télémesure
+950.0,_63_Load_torque_R,REAL,Couple de charge en mètres x tonnes (portée x charge) w C mw Contrôleur d’état de charge,%DB102.DBD950,Télémesure
+954.0,_63_Curve_No_I,INT,Courbe sélectionnée w Contrôleur d’état de charge,%DB102.DBW954,Télémesure
+956.0,_63_SLI_Test_No_I,INT,Numéro courbe de charge: test CEC Contrôleur d’état de charge,%DB102.DBW956,Télémesure
+958.0,_63_11_Load_collective,REAL,Compteur spectre de charge du méc. l evage Contrôleur d’état de charge,%DB102.DBD958,Télémesure
+962.0,_63_12_Load_DMS_1_R,REAL,Charge brute méc. levage 2 jauge DMS 1 Contrôleur d’état de charge 3,%DB102.DBD962,Télémesure
+966.0,_63_12_Load_DMS_2_R,REAL,Charge brute méc. levage 2 jauge DMS 2 Contrôleur d’état de charge 4,%DB102.DBD966,Télémesure
+970.0,_63_12_Diff_DMS_1_2,REAL,Charge brute méc. levage 2: différen ce jauges DMS 1 + 2 Contrôleur d’état de charge 2,%DB102.DBD970,Télémesure
+974.0,Vi_63_Value_act_4R_grab,INT,Valeur actuelle de la force de levag e de la benne à quatre câbles Contrôleur d’état de charge,%DB102.DBW974,Télémesure
+976.0,Vi_63_Value_4R_grab_1,INT,Capacité de charge valeur benne à 4 câbles 1 Contrôleur d’état de charge 1,%DB102.DBW976,Télémesure
+978.0,Vi_63_Value_4R_grab_2,INT,Capacité de charge valeur benne à 4 câbles 2 Contrôleur d’état de charge 2,%DB102.DBW978,Télémesure
+980.0,Vi_63_Value_4R_grab_3,INT,Capacité de charge valeur benne à 4 câbles 3 Contrôleur d’état de charge 3,%DB102.DBW980,Télémesure
+982.0,Vi_63_Value_4R_grab_4,INT,Capacité de charge valeur benne à 4 câbles 4 Contrôleur d’état de charge 4,%DB102.DBW982,Télémesure
+984.0,Vi_63_Value_4R_grab_5,INT,Capacité de charge valeur benne à 4 câbles 5 Contrôleur d’état de charge 5,%DB102.DBW984,Télémesure
+986.0,Vi_63_Value_4R_grab_6,INT,Capacité de charge valeur benne à 4 câbles 6 Contrôleur d’état de charge 6,%DB102.DBW986,Télémesure
+988.0,Vi_63_EN_SWL_4R_global,BOOL,Validation global affichage capacité de charge pour la benne à 4 câbles Contrôleur d’état de charge,%DB102.DBX988.0,Télésignal
+988.1,Vi_63_EN_SWL_4R_grab_1,BOOL,Validation affichage capacité de charge pour la benne à quatre câbles 1 Contrôleur d’état de charge 1,%DB102.DBX988.1,Télésignal
+988.2,Vi_63_EN_SWL_4R_grab_2,BOOL,Validation affichage capacité de charge pour la benne à quatre câbles 2 Contrôleur d’état de charge 2,%DB102.DBX988.2,Télésignal
+988.3,Vi_63_EN_SWL_4R_grab_3,BOOL,Validation affichage capacité de charge pour la benne à quatre câbles 3 Contrôleur d’état de charge 3,%DB102.DBX988.3,Télésignal
+988.4,Vi_63_EN_SWL_4R_grab_4,BOOL,Validation affichage capacité de charge pour la benne à quatre câbles 4 Contrôleur d’état de charge 4,%DB102.DBX988.4,Télésignal
+988.5,Vi_63_EN_SWL_4R_grab_5,BOOL,Validation affichage capacité de charge pour la benne à quatre câbles 5 Contrôleur d’état de charge 5,%DB102.DBX988.5,Télésignal
+988.6,Vi_63_EN_SWL_4R_grab_6,BOOL,Validation affichage capacité de charge pour la benne à quatre câbles 6 Contrôleur d’état de charge 6,%DB102.DBX988.6,Télésignal
+990.0,_63_Error_code,INT,CEC: code de défaut Contrôleur d’état de charge,%DB102.DBW990,Télémesure
+992.0,_63_Radius_diff_R,REAL,CEC: différence de portée pour le ca pteur d'angle SSI Contrôleur d’état de charge,%DB102.DBD992,Télémesure
+996.0,_63_SLI_check_11_H_act,REAL,"Indicateur CEC, mode test: hauteur de levage actuelle Contrôleur d’état de charge",%DB102.DBD996,Télémesure
+1000.0,_63_SLI_check_11_H_perm,REAL,"Indicateur CEC, mode test: hauteur de levage admissible Contrôleur d’état de charge",%DB102.DBD1000,Télémesure
+1004.0,_63_SLI_check_11_H_perc,REAL,"Indicateur CEC, mode test: hauteur de levage en % Contrôleur d’état de charge",%DB102.DBD1004,Télémesure
+1008.0,_63_SLI_check_31_R_act,REAL,"Indicateur CEC, mode test: portée ac tuelle Contrôleur d’état de charge",%DB102.DBD1008,Télémesure
+1012.0,_63_SLI_check_31_R_perm,REAL,"Indicateur CEC, mode test: portée ad missible Contrôleur d’état de charge",%DB102.DBD1012,Télémesure
+1016.0,_63_SLI_check_31_R_perc,REAL,"Indicateur CEC, mode test: portée en % Contrôleur d’état de charge",%DB102.DBD1016,Télémesure
+1020.0,_63_SLI_check_63_L_act,REAL,"Indicateur CEC, mode test: charge ac tuelle Contrôleur d’état de charge",%DB102.DBD1020,Télémesure
+1024.0,_63_SLI_check_63_L_perm,REAL,"Indicateur CEC, mode test: charge ad missible Contrôleur d’état de charge",%DB102.DBD1024,Télémesure
+1028.0,_63_SLI_check_63_L_perc,REAL,"Indicateur CEC, mode test: charge en % Contrôleur d’état de charge",%DB102.DBD1028,Télémesure
+1032.0,_91_m_ft_R,REAL,"Facteur dépendant des unités pour po rtée/hauteur de levage m = 1, ft = 3 .2808 Commande centralisée CPU programmable",%DB102.DBD1032,Télémesure
+1036.0,_91_t_sht_R,REAL,"Facteur dépendant des unités pour ch arge, t = 1, sht = 1.1023 Commande centralisée CPU programmable",%DB102.DBD1036,Télémesure
+1040.0,_91_m_s_miles_h_R,REAL,"Facteur dépendant des unités pour vi tesse du vent m/S = 1, miles/h = 2.2 369 Commande centralisée CPU programmable",%DB102.DBD1040,Télémesure
+1044.0,_91_Lifting_gear_code_1,INT,Code moyens préh:1e pos 0=croch1=spr 2=twi3=benne4=b4c5=spéc6=palon7=poly 8=coqu Commande centralisée CPU programmable,%DB102.DBW1044,Télécommunication
+1046.0,_91_Lifting_gear_code_2,INT,Code moyen de préhension: 2ème mot s électionné par le grutier Commande centralisée CPU programmable,%DB102.DBW1046,Télécommunication
+1048.0,_91_63_Tara_load_R,REAL,Tare pour la visualisation Commande centralisée CPU programmable,%DB102.DBD1048,Télémesure
+1052.0,_91_Date_Time_STR,STRING,Date et heure indiquées en format String Commande centralisée CPU programmable,,
+1078.0,_91_Date_STR,STRING,Date indiquée en format String Commande centralisée CPU programmable,,
+1104.0,_91_Time_STR,STRING,Heure indiquée en format String Commande centralisée CPU programmable,,
+1130.0,F_97_Contr_set_minimum,BOOL,Adaptation de la vitesse du manipula teur : valeurs mini mémorisées Pupitres de commande,%DB102.DBX1130.0,Télécommunication
+1130.1,F_97_Contr_set_default,BOOL,Adaptation de la vitesse du manipula teur : valeurs par défaut mémorisées Pupitres de commande,%DB102.DBX1130.1,Télécommunication
+1130.2,F_97_Contr_set_maximum,BOOL,Adaptation de la vitesse du manipula teur : valeurs maxi mémorisées Pupitres de commande,%DB102.DBX1130.2,Télécommunication
+1132.0,Search_string,STRING,String (chaîne de caractères) de rec herche pour les types de grue,,
+1138.0,Pos_search_string,INT,Position du string de recherche dansla désignation de la grue,%DB102.DBW1138,Télémesure
+1140.0,Length_string,INT,Longueur du string pour les types degrue P DWON,%DB102.DBW1140,Télémesure
+1142.0,Act_search_string,STRING,Mémoire pour le string de recherche du type de grue w C mw,,
+1150.0,Crane_GHMK,STRING,"String de désignation de la w grue ""G HMK""",,
+1158.0,Crane_GHSK,STRING,"String de désignation de la grue ""G HSK""",,
+1166.0,Crane_GHPK,STRING,"String de désignation de la grue ""G HPK""",,
+1174.0,Index_zero,INT,Index quand le type de grue est erroné,%DB102.DBW1174,Télémesure
+1176.0,Index_GHMK,INT,Index pour GHMK,%DB102.DBW1176,Télémesure
+1178.0,Index_GHSK,INT,Index pour GHSK,%DB102.DBW1178,Télémesure
+1180.0,Index_GHPK,INT,Index pour GHPK,%DB102.DBW1180,Télémesure
+1182.0,Index_crane_type,INT,Index actuel pour le type de grue,%DB102.DBW1182,Télémesure
+1184.0,Prev_Cycle_Time_R,REAL,Temps de cycle précédent,%DB102.DBD1184,Télémesure
+1188.0,Used_slaves_old.Slave_3,BOOL,Salle électrique 0 1,%DB102.DBX1188.0,Télésignal
+1188.1,Used_slaves_old.Slave_4,BOOL,Salle électrique 1 2,%DB102.DBX1188.1,Télésignal
+1188.2,Used_slaves_old.Slave_8,BOOL,Salle électrique 2 3,%DB102.DBX1188.2,Télésignal
+1188.3,Used_slaves_old.Slave_11,BOOL,Control Unit Méc. levage 1 / Méc. retenue,%DB102.DBX1188.3,Télésignal
+1188.4,Used_slaves_old.Slave_12,BOOL,Mécanisme de levage 1 + 2 + mécanism e d'orientation Méc. levage 2 / Méc. fermeture,%DB102.DBX1188.4,Télésignal
+1188.5,Used_slaves_old.Slave_13,BOOL,Entraînement méc. levage 1,%DB102.DBX1188.5,Télésignal
+1188.6,Used_slaves_old.Slave_15,BOOL,Résistance freinage 1,%DB102.DBX1188.6,Télésignal
+1188.7,Used_slaves_old.Slave_17,BOOL,Entraînement méc. levage 2 Treuil auxiliaire,%DB102.DBX1188.7,Télésignal
+1189.0,Used_slaves_old.Slave_18,BOOL,Entraînement méc. translation électr ique,%DB102.DBX1189.0,Télésignal
+1189.1,Used_slaves_old.Slave_19,BOOL,Réserve 1,%DB102.DBX1189.1,Télésignal
+1189.2,Used_slaves_old.Slave_20,BOOL,Réserve 2,%DB102.DBX1189.2,Télésignal
+1189.3,Used_slaves_old.Slave_21,BOOL,Entraînement mécanisme d'orientation Mécanisme d'orientation,%DB102.DBX1189.3,Télésignal
+1189.4,Used_slaves_old.Slave_24,BOOL,Cabine de tour,%DB102.DBX1189.4,Télécommunication
+1189.5,Used_slaves_old.Slave_25,BOOL,Système anti-ballant,%DB102.DBX1189.5,Télésignal
+1189.6,Used_slaves_old.Slave_32,BOOL,Châssis,%DB102.DBX1189.6,Télésignal
+1189.7,Used_slaves_old.Slave_36,BOOL,Réserve 3,%DB102.DBX1189.7,Télésignal
+1190.0,Used_slaves_old.Slave_44,BOOL,Réserve 4,%DB102.DBX1190.0,Télésignal
+1190.1,Used_slaves_old.Slave_48,BOOL,Réserve 5,%DB102.DBX1190.1,Télésignal
+1190.2,Used_slaves_old.Slave_53,BOOL,Tambour à câble Enrouleur à câble de flèche,%DB102.DBX1190.2,Télésignal
+1190.3,Used_slaves_old.Slave_60,BOOL,Bus ASI superstructure,%DB102.DBX1190.3,Télésignal
+1190.4,Used_slaves_old.Slave_61,BOOL,Passerelle CAN superstructure Equipements de sécurité,%DB102.DBX1190.4,Téléalarme
+1190.5,Used_slaves_old.Slave_62,BOOL,Passerelle CAN PowerCaps Calage,%DB102.DBX1190.5,Télésignal
+1190.6,Used_slaves_old.Slave_63,BOOL,CPU CEC Contrôleur d’état de charge,%DB102.DBX1190.6,Télésignal
+1190.7,Used_slaves_old.Slave_64,BOOL,Salle électrique Safety,%DB102.DBX1190.7,Télésignal
+1191.0,Used_slaves_old.Slave_69,BOOL,Radiotélécommande Radiocommande,%DB102.DBX1191.0,Télécommunication
+1191.1,Used_slaves_old.Slave_70,BOOL,Passerelle CAN châssis,%DB102.DBX1191.1,Télésignal
+1191.2,Used_slaves_old.Slave_85,BOOL,EKS cabine de tour,%DB102.DBX1191.2,Télécommunication
+1191.3,Used_slaves_old.Slave_86,BOOL,EKS superstructure,%DB102.DBX1191.3,Télésignal
+1191.4,Used_slaves_old.Slave_90,BOOL,Réserve 6,%DB102.DBX1191.4,Télésignal
+1191.5,Used_slaves_old.Slave_93,BOOL,Manipulateur à droite Commande châssis progr.,%DB102.DBX1191.5,Télécommunication
+1191.6,Used_slaves_old.Slave_94,BOOL,Manipulateur à gauche Commandes numériques,%DB102.DBX1191.6,Télécommunication
+1191.7,Used_slaves_old.Slave_95,BOOL,11_P_B21 Absolute encoder Système de bus acteur-capteur,%DB102.DBX1191.7,Télésignal
+1192.0,Used_slaves_old.Slave_96,BOOL,12_P_B21 Absolute encoder,%DB102.DBX1192.0,Télésignal
+1192.1,Used_slaves_old.Slave_97,BOOL,Réserve Pupitres de commande,%DB102.DBX1192.1,Télécommunication
+1194.0,Crane_size_STR,STRING,Classe de grue en format String,,
+1198.0,Crane_size_I,INT,Classe de grue en format Integer,%DB102.DBW1198,Télémesure
+1200.0,Hoist_size_STR,STRING,Taille du mécanisme de levage exprim ée en format String,,
+1204.0,Hoist_size_INT,INT,Taille du mécanisme de levage exprim ée en format Integer,%DB102.DBW1204,Télémesure
+1206.0,Num_of_axles_STR,STRING,Nombre d'essieux exprimé en format S tring,,
+1210.0,Num_of_axles_INT,INT,Nombre d'essieux exprimé en format I nteger,%DB102.DBW1210,Télémesure
+1212.0,Spec_of_design_STR,STRING,Type d'exécution de la grue exprimé en format String,,
+1216.0,Design_spec_bulk_STR,STRING,"Exécution de la grue: grue ""bulk""",,
+1220.0,Design_spec_light_STR,STRING,"Exécution de la grue: grue ""Light""",,
+1224.0,Design_spec_high_STR,STRING,"Exécution de la grue: grue ""High""",,
+1228.0,_11_I2t_actual_perc,REAL,Charge du module moteur en pourcenta ge Méc. levage 1 / Méc. retenue,%DB102.DBD1228,Télémesure
+1232.0,_31_RAD_Limit_POS_R2,REAL,"Portée admissible relevage flèche sans limitation, calcul 2 Méc. variation de volée hydraul.",%DB102.DBD1232,Télémesure
+1236.0,_31_RAD_Limit_NEG_R2,REAL,"Portée admissible abaissement flèche sans limitation, calcul 2 Méc. variation de volée hydraul.",%DB102.DBD1236,Télémesure
+1240.0,_04_act_pressure_steer,REAL,Valeur réelle pression de la pompe de direction Pompes et compresseurs,%DB102.DBD1240,Télémesure
+1244.0,_11_H_height_actual_R2,REAL,Hauteur de levage valeur réelle en m (codeur absolu) calcul 2 Méc. levage 1 / Méc. retenue,%DB102.DBD1244,Télémesure
+1248.0,_12_H_height_actual_R2,REAL,Hauteur de levage valeur réelle en m (codeur absolu) calcul 2 Méc. levage 2 / Méc. fermeture,%DB102.DBD1248,Télémesure
+1252.0,_11_H_H_limit_POS_R1,REAL,"Méc. levage 1: levage: hauteur de levage admiss., calcul 1 Méc. levage 1 / Méc. retenue",%DB102.DBD1252,Télémesure
+1256.0,_11_H_H_limit_NEG_R1,REAL,"Méc. levage 1: descente: hauteur de levage admiss., calcul 1 Méc. levage 1 / Méc. retenue",%DB102.DBD1256,Télémesure
+1260.0,_12_H_H_limit_POS_R1,REAL,"Mécanisme de levage 2: levage: haute ur de levage admiss., calcul 1 Méc. levage 2 / Méc. fermeture 1",%DB102.DBD1260,Télémesure
+1264.0,_12_H_H_limit_NEG_R1,REAL,"Mécanisme de levage 2: descente: hauteur de levage admiss., calcul 1 Méc. levage 2 / Méc. fermeture 1",%DB102.DBD1264,Télémesure
+1268.0,RAD_Limit_POS_R1,REAL,"Portée admissible relevage flèche sans limitation, calcul 1 1",%DB102.DBD1268,Télémesure
+1272.0,RAD_Limit_NEG_R1,REAL,"Portée admissible abaissement flèche sans limitation, calcul 1 P DWON",%DB102.DBD1272,Télémesure
+1276.0,_11_H_H_limit_POS_R2,REAL,"Méc. levage 1: levage: hauteur de levage admiss., calcul 2 w C mw Méc. levage 1 / Méc. retenue",%DB102.DBD1276,Télémesure
+1280.0,_11_H_H_limit_NEG_R2,REAL,"Méc. levage 1: descente: hauteur w de levage admiss., calcul 2 Méc. levage 1 / Méc. retenue",%DB102.DBD1280,Télémesure
+1284.0,_12_H_H_limit_POS_R2,REAL,"Mécanisme de levage 2: levage: haute ur de levage admiss., calcul 2 Méc. levage 2 / Méc. fermeture 2",%DB102.DBD1284,Télémesure
+1288.0,_12_H_H_limit_NEG_R2,REAL,"Mécanisme de levage 2: descente: hauteur de levage admiss., calcul 2 Méc. levage 2 / Méc. fermeture 2",%DB102.DBD1288,Télémesure
+1292.0,RAD_Limit_POS_R2,REAL,"Portée admissible relevage flèche sans limitation, calcul 2 2",%DB102.DBD1292,Télémesure
+1296.0,RAD_Limit_NEG_R2,REAL,"Portée admissible abaissement flèche sans limitation, calcul 2",%DB102.DBD1296,Télémesure
+1300.0,_31_v_act_encoder_R,REAL,Méc. var. volée: vitesse de variatio n de volée actuelle Méc. variation de volée hydraul. 1,%DB102.DBD1300,Télémesure
+1304.0,_31_v_act_sensor_R,REAL,Méc. var. volée: vitesse de variatio n de volée actuelle Méc. variation de volée hydraul. 2,%DB102.DBD1304,Télémesure
+1308.0,_62_B511_Press_1,REAL,Pression 1 côté fond avant gauche Calage 1,%DB102.DBD1308,Télémesure
+1312.0,_62_B512_Press_1,REAL,Pression 1 côté tige avant gauche Calage 1,%DB102.DBD1312,Télémesure
+1316.0,_62_B521_Press_1,REAL,Pression 1 côté fond avant droit Calage 1,%DB102.DBD1316,Télémesure
+1320.0,_62_B522_Press_1,REAL,Pression 1 côté tige avant droit Calage 1,%DB102.DBD1320,Télémesure
+1324.0,_62_B531_Press_1,REAL,Pression 1 côté fond arrière droite Calage 1,%DB102.DBD1324,Télémesure
+1328.0,_62_B532_Press_1,REAL,Pression 1 côté tige arrière droit Calage 1,%DB102.DBD1328,Télémesure
+1332.0,_62_B541_Press_1,REAL,Pression 1 côté fond arrière gauche Calage 1,%DB102.DBD1332,Télémesure
+1336.0,_62_B542_Press_1,REAL,Pression 1 côté tige arrière gauche Calage 1,%DB102.DBD1336,Télémesure
+1340.0,_62_B511_Press_2,REAL,Pression 2 côté fond avant gauche Calage 2,%DB102.DBD1340,Télémesure
+1344.0,_62_B512_Press_2,REAL,Pression 2 côté tige avant gauche Calage 2,%DB102.DBD1344,Télémesure
+1348.0,_62_B521_Press_2,REAL,Pression 2 côté fond avant droit Calage 2,%DB102.DBD1348,Télémesure
+1352.0,_62_B522_Press_2,REAL,Pression 2 côté tige avant droit Calage 2,%DB102.DBD1352,Télémesure
+1356.0,_62_B531_Press_2,REAL,Pression 2 côté fond arrière droite Calage 2,%DB102.DBD1356,Télémesure
+1360.0,_62_B532_Press_2,REAL,Pression 2 côté tige arrière droit Calage 2,%DB102.DBD1360,Télémesure
+1364.0,_62_B541_Press_2,REAL,Pression 2 côté fond arrière gauche Calage 2,%DB102.DBD1364,Télémesure
+1368.0,_62_B542_Press_2,REAL,Pression 2 côté tige arrière gauche Calage 2,%DB102.DBD1368,Télémesure
+1372.0,FS_63_B51_11_cal_1,REAL,Charge brute méc. levage 1 jauge DMS 1 Contrôleur d’état de charge 5,%DB102.DBD1372,Télémesure
+1376.0,FS_63_B51_11_cal_2,REAL,Charge brute méc. levage 1 jauge DMS 2 Contrôleur d’état de charge 6,%DB102.DBD1376,Télémesure
+1380.0,FS_63_B52_12_cal_1,REAL,Charge brute méc. levage 2 jauge DMS 1 Contrôleur d’état de charge 7,%DB102.DBD1380,Télémesure
+1384.0,FS_63_B52_12_cal_2,REAL,Charge brute méc. levage 2 jauge DMS 2 Contrôleur d’état de charge 8,%DB102.DBD1384,Télémesure
+1388.0,Crane_GHRK,STRING,"String de désignation de la grue ""G HRK""",,
+1396.0,Index_GHRK,INT,Index pour GHRK,%DB102.DBW1396,Télémesure
+1398.0,_42_Press_brake_left,REAL,Pression frein de stationnement portique gauche (GHRK) Méc. translation méc.-hydraul.,%DB102.DBD1398,Télémesure
+1402.0,_42_Press_brake_right,REAL,Pression frein de stationnement portique droit (GHRK) Méc. translation méc.-hydraul.,%DB102.DBD1402,Télémesure
+1406.0,_94_Firmware_CU_1,DINT,État du firmware actuel CU1 Commandes numériques,%DB102.DBD1406,Télécommunication
+1410.0,_62_Force_FL,REAL,Force avant gauche [t] Calage,%DB102.DBD1410,Télémesure
+1414.0,_62_Force_FR,REAL,Force avant droite [t] Calage,%DB102.DBD1414,Télémesure
+1418.0,_62_Force_RR,REAL,Force arrière droite [t] Calage,%DB102.DBD1418,Télémesure
+1422.0,_62_Force_RL,REAL,Force arrière gauche [t] Calage,%DB102.DBD1422,Télémesure
+1426.0,_62_Summ_force,REAL,Force [t] Calage,%DB102.DBD1426,Télémesure
+1430.0,_11_Brutto_load_fast,REAL,Schnelle Lasterfassung Méc. levage 1 / Méc. retenue,%DB102.DBD1430,Télémesure
+1434.0,_31_Pos_limit_luff_in,REAL,Wippwerk: Position der Begrenzung ei nwippen Méc. variation de volée hydraul.,%DB102.DBD1434,Télémesure
+1438.0,_31_Pos_limit_luff_out,REAL,Wippwerk: Position der Begrenzung au swippen Méc. variation de volée hydraul.,%DB102.DBD1438,Télémesure
+1442.0,_04_Power_act_P12,REAL,Istwert aktuelle Leistung Pumpen P1+ P2 Pompes et compresseurs,%DB102.DBD1442,Télémesure
+1446.0,_04_Power_act_P34,REAL,Istwert aktuelle Leistung Pumpen P3+ P4 Pompes et compresseurs,%DB102.DBD1446,Télémesure
+1450.0,F_62_40t_SR,BOOL,Abgestützt mit 40t Calage,%DB102.DBX1450.0,Télésignal
+1452.0,_11_N_nominal_R,REAL,Hubwerk: Aktuelle Nenndrehzahl Méc. levage 1 / Méc. retenue,%DB102.DBD1452,Télémesure
+1456.0,_00_Temp_L21,REAL,Temperaturmessung E-Raum Groupe électrogène diesel,%DB102.DBD1456,Télémesure
+1460.0,_11_T_actual_R,REAL,HW1:Drehmomentistwert Méc. levage 1 / Méc. retenue,%DB102.DBD1460,Télémesure
+1464.0,_11_T_add_switched_R,REAL,HW1:Vorsteuermoment geschaltet Méc. levage 1 / Méc. retenue,%DB102.DBD1464,Télémesure
