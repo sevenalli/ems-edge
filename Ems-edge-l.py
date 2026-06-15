@@ -101,7 +101,7 @@ PLC_SLOT = _env_int('PLC_SLOT', 0)
 # MQTT
 MQTT_BROKER = _env('MQTT_BROKER', '127.0.0.1')
 MQTT_PORT   = _env_int('MQTT_PORT', 1883)
-TOPIC_PUB   = f"{SITE}/{EQUIPMENT_CODE}"
+TOPIC_PUB   = f"{SITE}/{EQUIPMENT_CODE}/logs"
 
 # CSV tag mapping files (comma-separated list)
 CSV_FILES = [p.strip() for p in _env('CSV_FILES', 'tags.csv').split(',') if p.strip()]

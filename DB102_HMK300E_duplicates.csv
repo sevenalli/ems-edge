@@ -1,0 +1,450 @@
+Adresse,Nom,Type,Commentaire,Adresse_ABS,Fonction,Categorie
+0.0,_00_P_actual_R,REAL,Puissance en kW Groupe électrogène diesel,%DB102.DBD0,Groupe électrogène diesel,Télémesure
+4.0,_00_Temp_salle_masch_R,REAL,Température de salle des mas chines Groupe électrogène diesel,%DB102.DBD4,Groupe électrogène diesel,Télémesure
+8.0,_04_Setpoint_R,REAL,Valeur de consigne réduite pour pompe hydraulique Pompes et compresseurs,%DB102.DBD8,Pompes et compresseurs,Téléréglage
+12.0,_04_MS2_Y_R,REAL,Générateur de rampe Pompes et compresseurs,%DB102.DBD12,Pompes et compresseurs,Télémesure
+16.0,_04_MS3_Y_R,REAL,"Val. consigne pompe hydr ré duite, mode mise en équipem. : relever/poser flèche Pompes et compresseurs",%DB102.DBD16,Pompes et compresseurs,Téléréglage
+20.0,_04_Setpoint_Y_R,REAL,Valeur de consigne pompe hyd raulique Pompes et compresseurs,%DB102.DBD20,Pompes et compresseurs,Téléréglage
+24.0,_04_Press_main_pump_R,REAL,Pression de service de la pompe de travail Pompes et compresseurs,%DB102.DBD24,Pompes et compresseurs,Télémesure
+28.0,_04_Press_auxliary_R,REAL,Pression de service de la pompe à huile de commande Pompes et compresseurs,%DB102.DBD28,Pompes et compresseurs,Télémesure
+32.0,_04_Temp_hydr_R,REAL,Température du système hydra ulique Pompes et compresseurs,%DB102.DBD32,Pompes et compresseurs,Télémesure
+36.0,_04_Res1,REAL,Pompes et compresseurs 1,%DB102.DBD36,Pompes et compresseurs,Télémesure
+40.0,_04_Res2,REAL,Pompes et compresseurs 2,%DB102.DBD40,Pompes et compresseurs,Télémesure
+44.0,_07_Fuel_level_cent_R,REAL,Réservoir de carburant diese l: niveau de remplissage en % Groupe électrogène diesel,%DB102.DBD44,Groupe électrogène diesel,Télémesure
+48.0,_07_Res1,REAL,Groupe électrogène diesel 1,%DB102.DBD48,Groupe électrogène diesel,Télémesure
+52.0,_07_Res2,REAL,Groupe électrogène diesel 2,%DB102.DBD52,Groupe électrogène diesel,Télémesure
+56.0,_07_Res3,REAL,Groupe électrogène diesel 3,%DB102.DBD56,Groupe électrogène diesel,Télémesure
+60.0,_11_H_height_limit_POS_R,REAL,Hauteur de levage admissible pour le levage calculée Méc. levage 1 / Méc. retenue,%DB102.DBD60,Méc. levage 1 / Méc. retenue,Télémesure
+64.0,_11_H_height_limit_NEG_R,REAL,Hauteur de levage admissible calculée pour la descente Méc. levage 1 / Méc. retenue,%DB102.DBD64,Méc. levage 1 / Méc. retenue,Télémesure
+68.0,_11_H_height_perm_cent_R,REAL,Hauteur de levage admissible en pourcentage Méc. levage 1 / Méc. retenue,%DB102.DBD68,Méc. levage 1 / Méc. retenue,Télémesure
+72.0,_11_H_limit_POS_1_R,REAL,Montée: présélection hauteur de levage point final 1 Méc. levage 1 / Méc. retenue 1,%DB102.DBD72,Méc. levage 1 / Méc. retenue,Télémesure
+76.0,_11_H_limit_NEG_1_R,REAL,Descente: sélection hauteur de levage point cible 1 Méc. levage 1 / Méc. retenue 1,%DB102.DBD76,Méc. levage 1 / Méc. retenue,Télémesure
+80.0,_11_H_limit_POS_2_R,REAL,Montée: présélection hauteur de levage point final 2 Méc. levage 1 / Méc. retenue 2,%DB102.DBD80,Méc. levage 1 / Méc. retenue,Télémesure
+84.0,_11_H_limit_NEG_2_R,REAL,Descente: sélection hauteur de levage point cible 2 Méc. levage 1 / Méc. retenue 2,%DB102.DBD84,Méc. levage 1 / Méc. retenue,Télémesure
+88.0,_11_H_target_POS_cent_R,REAL,Montée: point cible actif en % (interrupt. fin course pr ogrammé manuellement) Méc. levage 1 / Méc. retenue,%DB102.DBD88,Méc. levage 1 / Méc. retenue,Télémesure
+92.0,_11_H_target_NEG_cent_R,REAL,Descente: Point cible actif en pourcentage Méc. levage 1 / Méc. retenue,%DB102.DBD92,Méc. levage 1 / Méc. retenue,Télémesure
+96.0,_11_MS1_X_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. levage 1 / Méc. retenue 1,%DB102.DBD96,Méc. levage 1 / Méc. retenue,Téléréglage
+100.0,_11_MS1_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. levage 1 / Méc. retenue 2,%DB102.DBD100,Méc. levage 1 / Méc. retenue,Téléréglage
+104.0,_11_MS2_Y_R,REAL,Réduire valeur de consigne v itesse pour réduction puissa nce Méc. levage 1 / Méc. retenue,%DB102.DBD104,Méc. levage 1 / Méc. retenue,Téléréglage
+108.0,_11_MS3_Y_R,REAL,Calculer valeur consigne vitesse rotation du méc. levage suivant la charge Méc. levage 1 / Méc. retenue,%DB102.DBD108,Méc. levage 1 / Méc. retenue,Téléréglage
+112.0,_11_MS4_Y_R,REAL,Appliquer val. pré-fin de course et val. cons. commande par à-coups Méc. levage 1 / Méc. retenue,%DB102.DBD112,Méc. levage 1 / Méc. retenue,Télémesure
+116.0,_11_MS5_Y_R,REAL,Impulsion changement de vitesse réducteur du méc. de levage Méc. levage 1 / Méc. retenue,%DB102.DBD116,Méc. levage 1 / Méc. retenue,Télémesure
+120.0,_11_MS6_Y_R,REAL,Impulsion de démarrage Méc. levage 1 / Méc. retenue,%DB102.DBD120,Méc. levage 1 / Méc. retenue,Télémesure
+124.0,_11_MS8_Y_R,REAL,Montée / descente jusqu’au point cible valeur de consign e réduite Méc. levage 1 / Méc. retenue,%DB102.DBD124,Méc. levage 1 / Méc. retenue,Télémesure
+128.0,_11_N_setpoint_R,REAL,Transmission de consigne à l 'entraînement en % Méc. levage 1 / Méc. retenue,%DB102.DBD128,Méc. levage 1 / Méc. retenue,Téléréglage
+132.0,_11_N_ramp_actual_R,REAL,Temps réelle de générateur de rampe % P DWON Méc. levage 1 / Méc. retenue,%DB102.DBD132,Méc. levage 1 / Méc. retenue,Télémesure
+136.0,_11_Res2,REAL,Méc. levage 1 / Méc. retenue 1,%DB102.DBD136,Méc. levage 1 / Méc. retenue,Télémesure
+140.0,_11_N_actual_R,REAL,Valeur réelle vitesse w C en t/m mwin w Méc. levage 1 / Méc. retenue,%DB102.DBD140,Méc. levage 1 / Méc. retenue,Télémesure
+144.0,_11_I_actual_R,REAL,Valeur réelle du courant enA Méc. levage 1 / Méc. retenue,%DB102.DBD144,Méc. levage 1 / Méc. retenue,Télémesure
+148.0,_11_P_actual_R,REAL,Valeur réelle de la puissanc e en kW Méc. levage 1 / Méc. retenue,%DB102.DBD148,Méc. levage 1 / Méc. retenue,Télémesure
+152.0,_11_UN_actual_R,REAL,Valeur réelle de la tension secteur en V Méc. levage 1 / Méc. retenue,%DB102.DBD152,Méc. levage 1 / Méc. retenue,Télémesure
+156.0,_11_fN_actual_R,REAL,Valeur réelle de la fréquenc e secteur en Hz Méc. levage 1 / Méc. retenue,%DB102.DBD156,Méc. levage 1 / Méc. retenue,Télémesure
+160.0,_11_UA_actual_R,REAL,Valeur réelle de la tension d'induit en V Méc. levage 1 / Méc. retenue,%DB102.DBD160,Méc. levage 1 / Méc. retenue,Télémesure
+164.0,_11_IF_actual_R,REAL,Valeur réelle du courant ind ucteur en A Méc. levage 1 / Méc. retenue,%DB102.DBD164,Méc. levage 1 / Méc. retenue,Télémesure
+168.0,_11_H_perm_R,REAL,Hauteur de levage admissible en m Méc. levage 1 / Méc. retenue,%DB102.DBD168,Méc. levage 1 / Méc. retenue,Télémesure
+172.0,_11_H_height_actual_R,REAL,Valeur réelle de la hauteur de levage en m Méc. levage 1 / Méc. retenue,%DB102.DBD172,Méc. levage 1 / Méc. retenue,Télémesure
+176.0,_11_Press_brake_R,REAL,Pression de service pour le frein du méc. de levage Méc. levage 1 / Méc. retenue,%DB102.DBD176,Méc. levage 1 / Méc. retenue,Télémesure
+180.0,_11_Grab_force,REAL,Force de traction benne pour mécanisme de fermeture Méc. levage 1 / Méc. retenue,%DB102.DBD180,Méc. levage 1 / Méc. retenue,Télémesure
+184.0,_11_Statusword_1_W.X00_Ready_to_switch_on,BOOL,"1=prêt à l'enclenchement, 0= pas prêt à l'enclenchement Méc. levage 1 / Méc. retenue",%DB102.DBX184.0,Méc. levage 1 / Méc. retenue,Télésignal
+184.1,_11_Statusword_1_W.X01_Ready_to_operate,BOOL,"1=prêt au fonctionnement (im pulsions bloquées), 0=pas prêt au fonctionnement Méc. levage 1 / Méc. retenue",%DB102.DBX184.1,Méc. levage 1 / Méc. retenue,Télésignal
+184.2,_11_Statusword_1_W.X02_Run,BOOL,"1=fonctionnement (borne de s ortie sous tension), 0= impu lsions bloquées Méc. levage 1 / Méc. retenue",%DB102.DBX184.2,Méc. levage 1 / Méc. retenue,Télésignal
+184.3,_11_Statusword_1_W.X03_Fault_is_active,BOOL,"1=anomalie active (impulsion s bloquées), 0=pas d'anomali e active Méc. levage 1 / Méc. retenue",%DB102.DBX184.3,Méc. levage 1 / Méc. retenue,Télécommunication
+184.4,_11_Statusword_1_W.X04_No_OFF_2_applied,BOOL,"1=pas d’ARRET 2, 0=ARRET 2 a ctivé Méc. levage 1 / Méc. retenue 1",%DB102.DBX184.4,Méc. levage 1 / Méc. retenue,Télécommunication
+184.5,_11_Statusword_1_W.X05_No_OFF_3_applied,BOOL,"1=pas d’ARRET 3, 0=ARRET 3 a ctivé Méc. levage 1 / Méc. retenue 2",%DB102.DBX184.5,Méc. levage 1 / Méc. retenue,Télécommunication
+184.6,_11_Statusword_1_W.X06_Switch_on_inhibit,BOOL,"1= blocage d'enclenchement, 0=pas de blocage d'enclench. (enclench. possible) Méc. levage 1 / Méc. retenue",%DB102.DBX184.6,Méc. levage 1 / Méc. retenue,Télésignal
+184.7,_11_Statusword_1_W.X07_Alarm_is_active,BOOL,"1=avertissement actif, 0=pas d'avertissement activé Méc. levage 1 / Méc. retenue",%DB102.DBX184.7,Méc. levage 1 / Méc. retenue,Téléalarme
+185.0,_11_Statusword_1_W.X08_Setpoint_EQ_actual,BOOL,"1=pas d'écart consigne-mesur e détecté, 0= écart consigne -mesure Méc. levage 1 / Méc. retenue",%DB102.DBX185.0,Méc. levage 1 / Méc. retenue,Téléréglage
+185.1,_11_Statusword_1_W.X09_PZD_control_request,BOOL,1=guidage données process PZD demandé (toujours 1) Méc. levage 1 / Méc. retenue,%DB102.DBX185.1,Méc. levage 1 / Méc. retenue,Télésignal
+185.2,_11_Statusword_1_W.X10_Actual_GE_Setpoint,BOOL,"1=val. réelle>=consigne comp araison (P373),0=val. réelle <cons. compar. (P373) Méc. levage 1 / Méc. retenue",%DB102.DBX185.2,Méc. levage 1 / Méc. retenue,Téléréglage
+185.3,_11_Statusword_1_W.X11_Undervoltage_fault,BOOL,"1=anomalie sous-tension, 0=p as d'anomalie sous-tension Méc. levage 1 / Méc. retenue",%DB102.DBX185.3,Méc. levage 1 / Méc. retenue,Téléalarme
+185.4,_11_Statusword_1_W.X12_Requ_main_contact_on,BOOL,"1=demande: contacteur ppal M ARCHE, 0=demande: contacteur ppal ARRET Méc. levage 1 / Méc. retenue",%DB102.DBX185.4,Méc. levage 1 / Méc. retenue,Télécommunication
+185.5,_11_Statusword_1_W.X13_Ramp_funct_generator,BOOL,"1=générateur de rampe actif, 0=générateur de rampe non actif Méc. levage 1 / Méc. retenue",%DB102.DBX185.5,Méc. levage 1 / Méc. retenue,Télésignal
+185.6,_11_Statusword_1_W.X14_Posit_speed_setpoint,BOOL,"Valeur de consigne pour vite sse: 1=positive, 0=négative Méc. levage 1 / Méc. retenue",%DB102.DBX185.6,Méc. levage 1 / Méc. retenue,Téléréglage
+185.7,_11_Statusword_1_W.X15,BOOL,Réserve Méc. levage 1 / Méc. retenue 1,%DB102.DBX185.7,Méc. levage 1 / Méc. retenue,Télésignal
+186.0,_11_Statusword_2_W.X16_Speedometre_trace_1,BOOL,Défaut générateur de vitesse piste 1 Méc. levage 1 / Méc. retenue,%DB102.DBX186.0,Méc. levage 1 / Méc. retenue,Téléalarme
+186.1,_11_Statusword_2_W.X17_Transmission_superv,BOOL,Défaut surveillance transmis sion Méc. levage 1 / Méc. retenue,%DB102.DBX186.1,Méc. levage 1 / Méc. retenue,Téléalarme
+186.2,_11_Statusword_2_W.X18_No_overspeed,BOOL,"1=pas de survitesse, 0=survi tesse (A038 et F038) Méc. levage 1 / Méc. retenue",%DB102.DBX186.2,Méc. levage 1 / Méc. retenue,Télésignal
+186.3,_11_Statusword_2_W.X19,BOOL,Réserve Méc. levage 1 / Méc. retenue 2,%DB102.DBX186.3,Méc. levage 1 / Méc. retenue,Télésignal
+186.4,_11_Statusword_2_W.X20,BOOL,Réserve Méc. levage 1 / Méc. retenue 3,%DB102.DBX186.4,Méc. levage 1 / Méc. retenue,Télésignal
+186.5,_11_Statusword_2_W.X21_Ext_alarm_active,BOOL,"1=alarme externe active (A02 1 ou A022), 0=pas d'alarme e xterne active Méc. levage 1 / Méc. retenue",%DB102.DBX186.5,Méc. levage 1 / Méc. retenue,Téléalarme
+186.6,_11_Statusword_2_W.X22_Power_overload_alarm,BOOL,"1=avertiss.surcharge partie puiss. active (A039), 0=pas d'avertiss.surcharge Méc. levage 1 / Méc. retenue",%DB102.DBX186.6,Méc. levage 1 / Méc. retenue,Téléalarme
+186.7,_11_Statusword_2_W.X23_Power_overtemp_fault,BOOL,"1=anomalie surchauffe unité puissance active (F067),0=pa s d'anomalie surchauffe Méc. levage 1 / Méc. retenue",%DB102.DBX186.7,Méc. levage 1 / Méc. retenue,Téléalarme
+187.0,_11_Statusword_2_W.X24_Power_overtemp_alarm,BOOL,"1=avertiss.surchauffe partie puiss. active (A067), 0=pas d'avertiss.surchauffe Méc. levage 1 / Méc. retenue",%DB102.DBX187.0,Méc. levage 1 / Méc. retenue,Téléalarme
+187.1,_11_Statusword_2_W.X25_Motor_overtemp_alarm,BOOL,"1=avertiss. surchauffe moteu r active (A029), 0=pas d'ave rtiss. surchauffe Méc. levage 1 / Méc. retenue",%DB102.DBX187.1,Méc. levage 1 / Méc. retenue,Téléalarme
+187.2,_11_Statusword_2_W.X26_Motor_overtemp_fault,BOOL,"1=anomalie surchauffe moteur actif (F029), 0=pas d'anoma lie surchauffe Méc. levage 1 / Méc. retenue",%DB102.DBX187.2,Méc. levage 1 / Méc. retenue,Téléalarme
+187.3,_11_Statusword_2_W.X27,BOOL,Réserve Méc. levage 1 / Méc. retenue 4,%DB102.DBX187.3,Méc. levage 1 / Méc. retenue,Télésignal
+187.4,_11_Statusword_2_W.X28_11_limit_hoist,BOOL,Surcourse de levage de la charge P DWON Méc. levage 1 / Méc. retenue,%DB102.DBX187.4,Méc. levage 1 / Méc. retenue,Télésignal
+187.5,_11_Statusword_2_W.X29_11_limit_low,BOOL,Surcourse de descente de la charge w C mw Méc. levage 1 / Méc. retenue,%DB102.DBX187.5,Méc. levage 1 / Méc. retenue,Télésignal
+187.6,_11_Statusword_2_W.X30_31_limit_in,BOOL,Surcourse de relevage w de la flèche Méc. levage 1 / Méc. retenue,%DB102.DBX187.6,Méc. levage 1 / Méc. retenue,Télésignal
+187.7,_11_Statusword_2_W.X31_31_limit_out,BOOL,Surcourse abaissement de la flèche Méc. levage 1 / Méc. retenue,%DB102.DBX187.7,Méc. levage 1 / Méc. retenue,Télésignal
+188.0,_11_Controlword_1_W.X00_On_1_active,BOOL,"1=marche,condition fonct, 0= ARRET1,arrêt par gén.impuls, puis blocage impuls. Méc. levage 1 / Méc. retenue",%DB102.DBX188.0,Méc. levage 1 / Méc. retenue,Télécommunication
+188.1,_11_Controlword_1_W.X01_On_2_active,BOOL,"1=condition de service, 0=AR RET2, blocage des impulsions Méc. levage 1 / Méc. retenue",%DB102.DBX188.1,Méc. levage 1 / Méc. retenue,Télécommunication
+188.2,_11_Controlword_1_W.X02_On_3_active,BOOL,"1=condition de service, 0=AR RET3, arrêt rapide Méc. levage 1 / Méc. retenue",%DB102.DBX188.2,Méc. levage 1 / Méc. retenue,Télécommunication
+188.3,_11_Controlword_1_W.X03_Enable_pulses,BOOL,"1=validation, libération des impulsions, 0=blocage des i mpulsions Méc. levage 1 / Méc. retenue",%DB102.DBX188.3,Méc. levage 1 / Méc. retenue,Télécommunication
+188.4,_11_Controlword_1_W.X04_EN_ramp_generator,BOOL,"1=validation générateur de r ampe, 0=mise à zéro du génér ateur de rampe Méc. levage 1 / Méc. retenue",%DB102.DBX188.4,Méc. levage 1 / Méc. retenue,Télésignal
+188.5,_11_Controlword_1_W.X05_Ramp_generator_start,BOOL,"1=démarrer générateur de ram pe, 0=geler générateur de rampe Méc. levage 1 / Méc. retenue",%DB102.DBX188.5,Méc. levage 1 / Méc. retenue,Télécommunication
+188.6,_11_Controlword_1_W.X06_Enable_setpoint,BOOL,"1=validation valeur de consi gne, 0=blocage valeur de con signe Méc. levage 1 / Méc. retenue",%DB102.DBX188.6,Méc. levage 1 / Méc. retenue,Téléréglage
+188.7,_11_Controlword_1_W.X07_Edge_acknowledge,BOOL,Acquittement front Méc. levage 1 / Méc. retenue,%DB102.DBX188.7,Méc. levage 1 / Méc. retenue,Télécommunication
+189.0,_11_Controlword_1_W.X08_Inching_bit_0_on,BOOL,1=commande par à-coups bit 0 Méc. levage 1 / Méc. retenue 1,%DB102.DBX189.0,Méc. levage 1 / Méc. retenue,Télécommunication
+189.1,_11_Controlword_1_W.X09_Inching_bit_1_on,BOOL,1=commande par à-coups bit 1 Méc. levage 1 / Méc. retenue 2,%DB102.DBX189.1,Méc. levage 1 / Méc. retenue,Télécommunication
+189.2,_11_Controlword_1_W.X10_Control_request,BOOL,"1=guidage demandé, 0=pas de guidage demandé Méc. levage 1 / Méc. retenue",%DB102.DBX189.2,Méc. levage 1 / Méc. retenue,Télésignal
+189.3,_11_Controlword_1_W.X11_SEL_claw_grab_op,BOOL,1=sélection benne polype Méc. levage 1 / Méc. retenue,%DB102.DBX189.3,Méc. levage 1 / Méc. retenue,Télésignal
+189.4,_11_Controlword_1_W.X12_SEL_special_grab_op,BOOL,1=sélection benne spéciale Méc. levage 1 / Méc. retenue,%DB102.DBX189.4,Méc. levage 1 / Méc. retenue,Télésignal
+189.5,_11_Controlword_1_W.X13_EN_hatch_scrap_out,BOOL,1=validation: gratter le fond de cale avec la benne Méc. levage 1 / Méc. retenue,%DB102.DBX189.5,Méc. levage 1 / Méc. retenue,Télésignal
+189.6,_11_Controlword_1_W.X14_Incr_setp_lowering,BOOL,1=augmentation valeur de con signe pour abaissement Méc. levage 1 / Méc. retenue,%DB102.DBX189.6,Méc. levage 1 / Méc. retenue,Téléréglage
+189.7,_11_Controlword_1_W.X15_No_external_fault,BOOL,"1=pas de défaut externe, 0=D éfaut externe 1 (F021) Méc. levage 1 / Méc. retenue",%DB102.DBX189.7,Méc. levage 1 / Méc. retenue,Téléalarme
+190.0,_11_Controlword_2_W.X16,BOOL,Méc. levage 1 / Méc. retenue 2,%DB102.DBX190.0,Méc. levage 1 / Méc. retenue,Télésignal
+190.1,_11_Controlword_2_W.X17,BOOL,Méc. levage 1 / Méc. retenue 3,%DB102.DBX190.1,Méc. levage 1 / Méc. retenue,Télésignal
+190.2,_11_Controlword_2_W.X18,BOOL,Méc. levage 1 / Méc. retenue 4,%DB102.DBX190.2,Méc. levage 1 / Méc. retenue,Télésignal
+190.3,_11_Controlword_2_W.X19,BOOL,Méc. levage 1 / Méc. retenue 5,%DB102.DBX190.3,Méc. levage 1 / Méc. retenue,Télésignal
+190.4,_11_Controlword_2_W.X20,BOOL,Méc. levage 1 / Méc. retenue 6,%DB102.DBX190.4,Méc. levage 1 / Méc. retenue,Télésignal
+190.5,_11_Controlword_2_W.X21,BOOL,Méc. levage 1 / Méc. retenue 7,%DB102.DBX190.5,Méc. levage 1 / Méc. retenue,Télésignal
+190.6,_11_Controlword_2_W.X22,BOOL,Méc. levage 1 / Méc. retenue 8,%DB102.DBX190.6,Méc. levage 1 / Méc. retenue,Télésignal
+190.7,_11_Controlword_2_W.X23,BOOL,Méc. levage 1 / Méc. retenue 9,%DB102.DBX190.7,Méc. levage 1 / Méc. retenue,Télésignal
+191.0,_11_Controlword_2_W.X24,BOOL,Méc. levage 1 / Méc. retenue 10,%DB102.DBX191.0,Méc. levage 1 / Méc. retenue,Télésignal
+191.1,_11_Controlword_2_W.X25,BOOL,Méc. levage 1 / Méc. retenue 11,%DB102.DBX191.1,Méc. levage 1 / Méc. retenue,Télésignal
+191.2,_11_Controlword_2_W.X26,BOOL,Méc. levage 1 / Méc. retenue 12,%DB102.DBX191.2,Méc. levage 1 / Méc. retenue,Télésignal
+191.3,_11_Controlword_2_W.X27,BOOL,Méc. levage 1 / Méc. retenue 13,%DB102.DBX191.3,Méc. levage 1 / Méc. retenue,Télésignal
+191.4,_11_Controlword_2_W.X28,BOOL,Méc. levage 1 / Méc. retenue 14,%DB102.DBX191.4,Méc. levage 1 / Méc. retenue,Télésignal
+191.5,_11_Controlword_2_W.X29,BOOL,Méc. levage 1 / Méc. retenue 15,%DB102.DBX191.5,Méc. levage 1 / Méc. retenue,Télésignal
+191.6,_11_Controlword_2_W.X30,BOOL,Méc. levage 1 / Méc. retenue 16,%DB102.DBX191.6,Méc. levage 1 / Méc. retenue,Télésignal
+191.7,_11_Controlword_2_W.X31,BOOL,Méc. levage 1 / Méc. retenue 17,%DB102.DBX191.7,Méc. levage 1 / Méc. retenue,Télésignal
+192.0,_12_MS1_X_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. levage 2 / Méc. fermeture 1,%DB102.DBD192,Méc. levage 2 / Méc. fermeture,Téléréglage
+196.0,_12_MS1_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. levage 2 / Méc. fermeture 2,%DB102.DBD196,Méc. levage 2 / Méc. fermeture,Téléréglage
+200.0,_12_N_setpoint_R,REAL,Transmission de consigne à l 'entraînement en % Méc. levage 2 / Méc. fermeture,%DB102.DBD200,Méc. levage 2 / Méc. fermeture,Téléréglage
+204.0,_12_Res1,REAL,Méc. levage 2 / Méc. fermeture 1,%DB102.DBD204,Méc. levage 2 / Méc. fermeture,Télémesure
+208.0,_12_Res2,REAL,Méc. levage 2 / Méc. fermeture 2,%DB102.DBD208,Méc. levage 2 / Méc. fermeture,Télémesure
+212.0,_12_N_actual_R,REAL,Valeur réelle vitesse en t/m in Méc. levage 2 / Méc. fermeture,%DB102.DBD212,Méc. levage 2 / Méc. fermeture,Télémesure
+216.0,_12_I_actual_R,REAL,Valeur réelle du courant enA Méc. levage 2 / Méc. fermeture,%DB102.DBD216,Méc. levage 2 / Méc. fermeture,Télémesure
+220.0,_12_P_actual_R,REAL,Valeur réelle de la puissanc e en kW Méc. levage 2 / Méc. fermeture,%DB102.DBD220,Méc. levage 2 / Méc. fermeture,Télémesure
+224.0,_12_UN_actual_R,REAL,Valeur réelle de la tension secteur en V Méc. levage 2 / Méc. fermeture,%DB102.DBD224,Méc. levage 2 / Méc. fermeture,Télémesure
+228.0,_12_fN_actual_R,REAL,Valeur réelle de la fréquenc e secteur en Hz Méc. levage 2 / Méc. fermeture,%DB102.DBD228,Méc. levage 2 / Méc. fermeture,Télémesure
+232.0,_12_UA_actual_R,REAL,Valeur réelle de la tension d'induit en V Méc. levage 2 / Méc. fermeture,%DB102.DBD232,Méc. levage 2 / Méc. fermeture,Télémesure
+236.0,_12_IF_actual_R,REAL,Valeur réelle du courant ind ucteur en A Méc. levage 2 / Méc. fermeture,%DB102.DBD236,Méc. levage 2 / Méc. fermeture,Télémesure
+240.0,_12_Press_brake_R,REAL,Pression de service pour le frein du méc. de fermeture Méc. levage 2 / Méc. fermeture,%DB102.DBD240,Méc. levage 2 / Méc. fermeture,Télémesure
+244.0,_12_Res4,REAL,Méc. levage 2 / Méc. fermeture 3,%DB102.DBD244,Méc. levage 2 / Méc. fermeture,Télémesure
+248.0,_12_Statusword_1_W.X00_Ready_to_switch_on,BOOL,"1=prêt à l'enclenchement, 0= pas prêt à l'enclenchement Méc. levage 2 / Méc. fermeture",%DB102.DBX248.0,Méc. levage 2 / Méc. fermeture,Télésignal
+248.1,_12_Statusword_1_W.X01_Ready_to_operate,BOOL,"1=prêt au fonctionnement (im pulsions bloquées), 0=pas prêt au fonctionnement Méc. levage 2 / Méc. fermeture",%DB102.DBX248.1,Méc. levage 2 / Méc. fermeture,Télésignal
+248.2,_12_Statusword_1_W.X02_Run,BOOL,"1=fonctionnement (borne de s ortie sous tension), 0= impu lsions bloquées Méc. levage 2 / Méc. fermeture",%DB102.DBX248.2,Méc. levage 2 / Méc. fermeture,Télésignal
+248.3,_12_Statusword_1_W.X03_Fault_is_active,BOOL,"1=anomalie active (impulsion s bloquées), 0=pas d'anomali e active P DWON Méc. levage 2 / Méc. fermeture",%DB102.DBX248.3,Méc. levage 2 / Méc. fermeture,Télécommunication
+248.4,_12_Statusword_1_W.X04_No_OFF_2_applied,BOOL,"1=pas d’ARRET 2, 0=ARRET 2 a ctivé w C mw Méc. levage 2 / Méc. fermeture",%DB102.DBX248.4,Méc. levage 2 / Méc. fermeture,Télécommunication
+248.5,_12_Statusword_1_W.X05_No_OFF_3_applied,BOOL,"1=pas d’ARRET 3, 0=ARRET w 3 a ctivé Méc. levage 2 / Méc. fermeture",%DB102.DBX248.5,Méc. levage 2 / Méc. fermeture,Télécommunication
+248.6,_12_Statusword_1_W.X06_Switch_on_inhibit,BOOL,"1= blocage d'enclenchement, 0=pas de blocage d'enclench. (enclench. possible) Méc. levage 2 / Méc. fermeture",%DB102.DBX248.6,Méc. levage 2 / Méc. fermeture,Télésignal
+248.7,_12_Statusword_1_W.X07_Alarm_is_active,BOOL,"1=avertissement actif, 0=pas d'avertissement activé Méc. levage 2 / Méc. fermeture",%DB102.DBX248.7,Méc. levage 2 / Méc. fermeture,Téléalarme
+249.0,_12_Statusword_1_W.X08_Setpoint_EQ_actual,BOOL,"1=pas d'écart consigne-mesur e détecté, 0= écart consigne -mesure Méc. levage 2 / Méc. fermeture",%DB102.DBX249.0,Méc. levage 2 / Méc. fermeture,Téléréglage
+249.1,_12_Statusword_1_W.X09_PZD_control_request,BOOL,1=guidage données process PZD demandé (toujours 1) Méc. levage 2 / Méc. fermeture,%DB102.DBX249.1,Méc. levage 2 / Méc. fermeture,Télésignal
+249.2,_12_Statusword_1_W.X10_Actual_GE_Setpoint,BOOL,"1=val. réelle>=consigne comp araison (P373),0=val. réelle <cons. compar. (P373) Méc. levage 2 / Méc. fermeture",%DB102.DBX249.2,Méc. levage 2 / Méc. fermeture,Téléréglage
+249.3,_12_Statusword_1_W.X11_Undervoltage_fault,BOOL,"1=anomalie sous-tension, 0=p as d'anomalie sous-tension Méc. levage 2 / Méc. fermeture",%DB102.DBX249.3,Méc. levage 2 / Méc. fermeture,Téléalarme
+249.4,_12_Statusword_1_W.X12_Requ_main_contact_on,BOOL,"1=demande: contacteur ppal M ARCHE, 0=demande: contacteur ppal ARRET Méc. levage 2 / Méc. fermeture",%DB102.DBX249.4,Méc. levage 2 / Méc. fermeture,Télécommunication
+249.5,_12_Statusword_1_W.X13_Ramp_funct_generator,BOOL,"1=générateur de rampe actif, 0=générateur de rampe non actif Méc. levage 2 / Méc. fermeture",%DB102.DBX249.5,Méc. levage 2 / Méc. fermeture,Télésignal
+249.6,_12_Statusword_1_W.X14_Posit_speed_setpoint,BOOL,"Valeur de consigne pour vite sse: 1=positive, 0=négative Méc. levage 2 / Méc. fermeture",%DB102.DBX249.6,Méc. levage 2 / Méc. fermeture,Téléréglage
+249.7,_12_Statusword_1_W.X15,BOOL,Réserve Méc. levage 2 / Méc. fermeture 1,%DB102.DBX249.7,Méc. levage 2 / Méc. fermeture,Télésignal
+250.0,_12_Statusword_2_W.X16_Speedometre_trace_1,BOOL,Défaut générateur de vitesse piste 1 Méc. levage 2 / Méc. fermeture,%DB102.DBX250.0,Méc. levage 2 / Méc. fermeture,Téléalarme
+250.1,_12_Statusword_2_W.X17_Transmission_superv,BOOL,Défaut surveillance transmis sion Méc. levage 2 / Méc. fermeture,%DB102.DBX250.1,Méc. levage 2 / Méc. fermeture,Téléalarme
+250.2,_12_Statusword_2_W.X18_No_overspeed,BOOL,"1=pas de survitesse, 0=survi tesse (A038 et F038) Méc. levage 2 / Méc. fermeture",%DB102.DBX250.2,Méc. levage 2 / Méc. fermeture,Télésignal
+250.3,_12_Statusword_2_W.X19_Grab_opened_4_rope,BOOL,1=mécanisme de fermeture: me ssage: benne ouverte Méc. levage 2 / Méc. fermeture,%DB102.DBX250.3,Méc. levage 2 / Méc. fermeture,Télésignal
+250.4,_12_Statusword_2_W.X20_Grab_closed_4_rope,BOOL,1=mécanisme de fermeture: me ssage: benne fermée Méc. levage 2 / Méc. fermeture,%DB102.DBX250.4,Méc. levage 2 / Méc. fermeture,Télésignal
+250.5,_12_Statusword_2_W.X21_Ext_alarm_active,BOOL,"1=alarme externe active (A02 1 ou A022), 0=pas d'alarme e xterne active Méc. levage 2 / Méc. fermeture",%DB102.DBX250.5,Méc. levage 2 / Méc. fermeture,Téléalarme
+250.6,_12_Statusword_2_W.X22_Power_overload_alarm,BOOL,"1=avertiss.surcharge partie puiss. active (A039), 0=pas d'avertiss.surcharge Méc. levage 2 / Méc. fermeture",%DB102.DBX250.6,Méc. levage 2 / Méc. fermeture,Téléalarme
+250.7,_12_Statusword_2_W.X23_Power_overtemp_fault,BOOL,"1=anomalie surchauffe unité puissance active (F067),0=pa s d'anomalie surchauffe Méc. levage 2 / Méc. fermeture",%DB102.DBX250.7,Méc. levage 2 / Méc. fermeture,Téléalarme
+251.0,_12_Statusword_2_W.X24_Power_overtemp_alarm,BOOL,"1=avertiss.surchauffe partie puiss. active (A067), 0=pas d'avertiss.surchauffe Méc. levage 2 / Méc. fermeture",%DB102.DBX251.0,Méc. levage 2 / Méc. fermeture,Téléalarme
+251.1,_12_Statusword_2_W.X25_Motor_overtemp_alarm,BOOL,"1=avertiss. surchauffe moteu r active (A029), 0=pas d'ave rtiss. surchauffe Méc. levage 2 / Méc. fermeture",%DB102.DBX251.1,Méc. levage 2 / Méc. fermeture,Téléalarme
+251.2,_12_Statusword_2_W.X26_Motor_overtemp_fault,BOOL,"1=anomalie surchauffe moteur actif (F029), 0=pas d'anoma lie surchauffe Méc. levage 2 / Méc. fermeture",%DB102.DBX251.2,Méc. levage 2 / Méc. fermeture,Téléalarme
+251.3,_12_Statusword_2_W.X27,BOOL,Réserve Méc. levage 2 / Méc. fermeture 2,%DB102.DBX251.3,Méc. levage 2 / Méc. fermeture,Télésignal
+251.4,_12_Statusword_2_W.X28,BOOL,Réserve Méc. levage 2 / Méc. fermeture 3,%DB102.DBX251.4,Méc. levage 2 / Méc. fermeture,Télésignal
+251.5,_12_Statusword_2_W.X29,BOOL,Réserve Méc. levage 2 / Méc. fermeture 4,%DB102.DBX251.5,Méc. levage 2 / Méc. fermeture,Télésignal
+251.6,_12_Statusword_2_W.X30,BOOL,Réserve Méc. levage 2 / Méc. fermeture 5,%DB102.DBX251.6,Méc. levage 2 / Méc. fermeture,Télésignal
+251.7,_12_Statusword_2_W.X31,BOOL,Réserve Méc. levage 2 / Méc. fermeture 6,%DB102.DBX251.7,Méc. levage 2 / Méc. fermeture,Télésignal
+252.0,_12_Controlword_1_W.X00_On_1_active,BOOL,"1=marche,condition fonct, 0= ARRET1,arrêt par gén.impuls, puis blocage impuls. Méc. levage 2 / Méc. fermeture",%DB102.DBX252.0,Méc. levage 2 / Méc. fermeture,Télécommunication
+252.1,_12_Controlword_1_W.X01_On_2_active,BOOL,"1=condition de service, 0=AR RET2, blocage des impulsions Méc. levage 2 / Méc. fermeture",%DB102.DBX252.1,Méc. levage 2 / Méc. fermeture,Télécommunication
+252.2,_12_Controlword_1_W.X02_On_3_active,BOOL,"1=condition de service, 0=AR RET3, arrêt rapide Méc. levage 2 / Méc. fermeture",%DB102.DBX252.2,Méc. levage 2 / Méc. fermeture,Télécommunication
+252.3,_12_Controlword_1_W.X03_Enable_pulses,BOOL,"1=validation, libération des impulsions, 0=blocage des i mpulsions Méc. levage 2 / Méc. fermeture",%DB102.DBX252.3,Méc. levage 2 / Méc. fermeture,Télécommunication
+252.4,_12_Controlword_1_W.X04_EN_ramp_generator,BOOL,"1=validation générateur de r ampe, 0=mise à zéro du génér ateur de rampe Méc. levage 2 / Méc. fermeture",%DB102.DBX252.4,Méc. levage 2 / Méc. fermeture,Télésignal
+252.5,_12_Controlword_1_W.X05_Ramp_generator_start,BOOL,"1=démarrer générateur de ram pe, 0=geler générateur de rampe Méc. levage 2 / Méc. fermeture",%DB102.DBX252.5,Méc. levage 2 / Méc. fermeture,Télécommunication
+252.6,_12_Controlword_1_W.X06_Enable_setpoint,BOOL,"1=validation valeur de consi gne, 0=blocage valeur de con signe Méc. levage 2 / Méc. fermeture",%DB102.DBX252.6,Méc. levage 2 / Méc. fermeture,Téléréglage
+252.7,_12_Controlword_1_W.X07_Edge_acknowledge,BOOL,Acquittement front Méc. levage 2 / Méc. fermeture,%DB102.DBX252.7,Méc. levage 2 / Méc. fermeture,Télécommunication
+253.0,_12_Controlword_1_W.X08_Inching_bit_0_on,BOOL,1=commande par à-coups bit 0 Méc. levage 2 / Méc. fermeture 1,%DB102.DBX253.0,Méc. levage 2 / Méc. fermeture,Télécommunication
+253.1,_12_Controlword_1_W.X09_Inching_bit_1_on,BOOL,1=commande par à-coups bit 1 Méc. levage 2 / Méc. fermeture 2,%DB102.DBX253.1,Méc. levage 2 / Méc. fermeture,Télécommunication
+253.2,_12_Controlword_1_W.X10_Control_request,BOOL,"1=guidage demandé, 0=pas de guidage demandé Méc. levage 2 / Méc. fermeture",%DB102.DBX253.2,Méc. levage 2 / Méc. fermeture,Télésignal
+253.3,_12_Controlword_1_W.X11_SEL_claw_grab_op,BOOL,1=sélection benne polype Méc. levage 2 / Méc. fermeture,%DB102.DBX253.3,Méc. levage 2 / Méc. fermeture,Télésignal
+253.4,_12_Controlword_1_W.X12_SEL_special_grab_op,BOOL,1=sélection benne spéciale Méc. levage 2 / Méc. fermeture,%DB102.DBX253.4,Méc. levage 2 / Méc. fermeture,Télésignal
+253.5,_12_Controlword_1_W.X13_EN_hatch_scrap_out,BOOL,1=validation: gratter le fond de cale avec la benne Méc. levage 2 / Méc. fermeture,%DB102.DBX253.5,Méc. levage 2 / Méc. fermeture,Télésignal
+253.6,_12_Controlword_1_W.X14_Incr_setp_lowering,BOOL,1=augmentation valeur de con signe pour abaissement P DWON Méc. levage 2 / Méc. fermeture,%DB102.DBX253.6,Méc. levage 2 / Méc. fermeture,Téléréglage
+253.7,_12_Controlword_1_W.X15_No_external_fault,BOOL,"1=pas de défaut externe, 0=D éfaut externe 1 (F021) w C mw Méc. levage 2 / Méc. fermeture",%DB102.DBX253.7,Méc. levage 2 / Méc. fermeture,Téléalarme
+254.0,_12_Controlword_2_W.X16,BOOL,w Méc. levage 2 / Méc. fermeture,%DB102.DBX254.0,Méc. levage 2 / Méc. fermeture,Télésignal
+254.1,_12_Controlword_2_W.X17,BOOL,Méc. levage 2 / Méc. fermeture 4,%DB102.DBX254.1,Méc. levage 2 / Méc. fermeture,Télésignal
+254.2,_12_Controlword_2_W.X18_Speed_control_adapt,BOOL,Mécanisme de fermeture: adap tation du régulateur de vitesse Méc. levage 2 / Méc. fermeture,%DB102.DBX254.2,Méc. levage 2 / Méc. fermeture,Télésignal
+254.3,_12_Controlword_2_W.X19_Store_travel_setp,BOOL,Méc. fermeture: enregistrer val. consigne pour course pa lonnier Méc. levage 2 / Méc. fermeture,%DB102.DBX254.3,Méc. levage 2 / Méc. fermeture,Téléréglage
+254.4,_12_Controlword_2_W.X20_SEL_Rigging_mode,BOOL,Mode de mise en équipement s électionné Méc. levage 2 / Méc. fermeture,%DB102.DBX254.4,Méc. levage 2 / Méc. fermeture,Télésignal
+254.5,_12_Controlword_2_W.X21_Starting_pulse,BOOL,Méc. de levage: validation i mpulsion de démarrage Méc. levage 2 / Méc. fermeture,%DB102.DBX254.5,Méc. levage 2 / Méc. fermeture,Télécommunication
+254.6,_12_Controlword_2_W.X22_EN_current_comp,BOOL,Méc. de fermeture: validatio n régulateur de courant de c ompensation Méc. levage 2 / Méc. fermeture,%DB102.DBX254.6,Méc. levage 2 / Méc. fermeture,Télésignal
+254.7,_12_Controlword_2_W.X23_EN_travel_controller,BOOL,Méc. de fermeture: validatio n régulateur de course Méc. levage 2 / Méc. fermeture,%DB102.DBX254.7,Méc. levage 2 / Méc. fermeture,Télésignal
+255.0,_12_Controlword_2_W.X24_EN_traverse_mode,BOOL,Mécanisme de fermeture: vali dation mode palonnier Méc. levage 2 / Méc. fermeture,%DB102.DBX255.0,Méc. levage 2 / Méc. fermeture,Télésignal
+255.1,_12_Controlword_2_W.X25_Standstill_field,BOOL,Excitation à l'arrêt Méc. levage 2 / Méc. fermeture,%DB102.DBX255.1,Méc. levage 2 / Méc. fermeture,Télécommunication
+255.2,_12_Controlword_2_W.X26_SEL_grab_change,BOOL,Sélection: changement de benne Méc. levage 2 / Méc. fermeture,%DB102.DBX255.2,Méc. levage 2 / Méc. fermeture,Télésignal
+255.3,_12_Controlword_2_W.X27_Grab_open_store,BOOL,Mécanisme de fermeture: benne ouverte – enregistrer la v aleur Méc. levage 2 / Méc. fermeture,%DB102.DBX255.3,Méc. levage 2 / Méc. fermeture,Télésignal
+255.4,_12_Controlword_2_W.X28_Grab_close_store,BOOL,Mécanisme de fermeture: benne fermée – enregistrer la valeur Méc. levage 2 / Méc. fermeture,%DB102.DBX255.4,Méc. levage 2 / Méc. fermeture,Télésignal
+255.5,_12_Controlword_2_W.X29_Gear_EN_pulse,BOOL,Méc. de fermeture: validatio n impulsion de changement de vitesse Méc. levage 2 / Méc. fermeture,%DB102.DBX255.5,Méc. levage 2 / Méc. fermeture,Télécommunication
+255.6,_12_Controlword_2_W.X30,BOOL,Méc. levage 2 / Méc. fermeture 5,%DB102.DBX255.6,Méc. levage 2 / Méc. fermeture,Télésignal
+255.7,_12_Controlword_2_W.X31_Grab_closed_send,BOOL,Envoyer et enregistrer API: course ferm. benne venant du redress. courant Méc. levage 2 / Méc. fermeture,%DB102.DBX255.7,Méc. levage 2 / Méc. fermeture,Télésignal
+256.0,_21_Ramp_setpoint_R,REAL,Temps d’accélération de consigne en secondes Mécanisme d'orientation,%DB102.DBD256,Mécanisme d'orientation,Téléréglage
+260.0,_21_Ramp_setpoint_RND_R,REAL,Temps d’accélération de consigne en secondes arrondi en chiffres entiers Mécanisme d'orientation,%DB102.DBD260,Mécanisme d'orientation,Téléréglage
+264.0,_21_MS1_X_R,REAL,Ordre: lire et adapter valeu r de consigne Mécanisme d'orientation 1,%DB102.DBD264,Mécanisme d'orientation,Téléréglage
+268.0,_21_MS1_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Mécanisme d'orientation 2,%DB102.DBD268,Mécanisme d'orientation,Téléréglage
+272.0,_21_MS2_Y_R,REAL,Réduire valeur de consigne n ombre de tours pour charge l ourde Mécanisme d'orientation,%DB102.DBD272,Mécanisme d'orientation,Téléréglage
+276.0,_21_MS3_Y_R,REAL,Calculer val. consigne vites se du méc. orientation suiva nt la portée Mécanisme d'orientation,%DB102.DBD276,Mécanisme d'orientation,Téléréglage
+280.0,_21_N_setpoint_R,REAL,Transmission de consigne à l 'entraînement en % Mécanisme d'orientation,%DB102.DBD280,Mécanisme d'orientation,Téléréglage
+284.0,_21_Press_brake1_R,REAL,Pression de service du frein d’orientation 1 Mécanisme d'orientation 1,%DB102.DBD284,Mécanisme d'orientation,Télémesure
+288.0,_21_Press_brake2_R,REAL,Pression de service du frein d’orientation 2 Mécanisme d'orientation 2,%DB102.DBD288,Mécanisme d'orientation,Télémesure
+292.0,_21_N_actual_R,REAL,Valeur réelle vitesse en t/m in Mécanisme d'orientation,%DB102.DBD292,Mécanisme d'orientation,Télémesure
+296.0,_21_I_actual_R,REAL,Valeur réelle du courant enA Mécanisme d'orientation,%DB102.DBD296,Mécanisme d'orientation,Télémesure
+300.0,_21_P_actual_R,REAL,Puissance en kW Mécanisme d'orientation,%DB102.DBD300,Mécanisme d'orientation,Télémesure
+304.0,_21_UA_actual_R,REAL,Valeur réelle de la tension d'induit en V Mécanisme d'orientation,%DB102.DBD304,Mécanisme d'orientation,Télémesure
+308.0,_21_IF_actual_R,REAL,Valeur réelle du courant ind ucteur en A Mécanisme d'orientation,%DB102.DBD308,Mécanisme d'orientation,Télémesure
+312.0,_21_RAD_actual_R,REAL,Angle d'orientation superstr ucture châssis: valeur réell e Mécanisme d'orientation,%DB102.DBD312,Mécanisme d'orientation,Télémesure
+316.0,_21_Ramp_actual_R,REAL,Temps d'accélération effecti f en sec. Mécanisme d'orientation,%DB102.DBD316,Mécanisme d'orientation,Télémesure
+320.0,_21_Press_brake3_R,REAL,Pression de service du frein d’orientation 3 Mécanisme d'orientation 3,%DB102.DBD320,Mécanisme d'orientation,Télémesure
+324.0,_21_Res4,REAL,Mécanisme d'orientation 1,%DB102.DBD324,Mécanisme d'orientation,Télémesure
+328.0,_21_Statusword_1_W.X00_Ready_to_switch_on,BOOL,"1=prêt à l'enclenchement, 0= pas prêt à l'enclenchement Mécanisme d'orientation",%DB102.DBX328.0,Mécanisme d'orientation,Télésignal
+328.1,_21_Statusword_1_W.X01_Ready_to_operate,BOOL,"1=prêt au fonctionnement (im pulsions bloquées), 0=pas prêt au fonctionnement Mécanisme d'orientation",%DB102.DBX328.1,Mécanisme d'orientation,Télésignal
+328.2,_21_Statusword_1_W.X02_Run,BOOL,"1=fonctionnement (borne de s ortie sous tension), 0= impu lsions bloquées Mécanisme d'orientation",%DB102.DBX328.2,Mécanisme d'orientation,Télésignal
+328.3,_21_Statusword_1_W.X03_Fault_is_active,BOOL,"1=anomalie active (impulsion s bloquées), 0=pas d'anomali e active Mécanisme d'orientation",%DB102.DBX328.3,Mécanisme d'orientation,Télécommunication
+328.4,_21_Statusword_1_W.X04_No_OFF_2_applied,BOOL,"1=pas d’ARRET 2, 0=ARRET 2 a ctivé Mécanisme d'orientation",%DB102.DBX328.4,Mécanisme d'orientation,Télécommunication
+328.5,_21_Statusword_1_W.X05_No_OFF_3_applied,BOOL,"1=pas d’ARRET 3, 0=ARRET 3 a ctivé P DWON Mécanisme d'orientation",%DB102.DBX328.5,Mécanisme d'orientation,Télécommunication
+328.6,_21_Statusword_1_W.X06_Switch_on_inhibit,BOOL,"1= blocage d'enclenchement, 0=pas de blocage w d'enclench. C mw (enclench. possible) w Mécanisme d'orientation",%DB102.DBX328.6,Mécanisme d'orientation,Télésignal
+328.7,_21_Statusword_1_W.X07_Alarm_is_active,BOOL,"1=avertissement actif, 0=pas d'avertissement activé Mécanisme d'orientation",%DB102.DBX328.7,Mécanisme d'orientation,Téléalarme
+329.0,_21_Statusword_1_W.X08_Setpoint_EQ_actual,BOOL,"1=pas d'écart consigne-mesur e détecté, 0= écart consigne -mesure Mécanisme d'orientation",%DB102.DBX329.0,Mécanisme d'orientation,Téléréglage
+329.1,_21_Statusword_1_W.X09_PZD_control_request,BOOL,1=guidage données process PZD demandé (toujours 1) Mécanisme d'orientation,%DB102.DBX329.1,Mécanisme d'orientation,Télésignal
+329.2,_21_Statusword_1_W.X10_Actual_GE_Setpoint,BOOL,"1=val. réelle>=consigne comp araison (P373),0=val. réelle <cons. compar. (P373) Mécanisme d'orientation",%DB102.DBX329.2,Mécanisme d'orientation,Téléréglage
+329.3,_21_Statusword_1_W.X11_Undervoltage_fault,BOOL,"1=anomalie sous-tension, 0=p as d'anomalie sous-tension Mécanisme d'orientation",%DB102.DBX329.3,Mécanisme d'orientation,Téléalarme
+329.4,_21_Statusword_1_W.X12_Requ_main_contact_on,BOOL,"1=demande: contacteur ppal M ARCHE, 0=demande: contacteur ppal ARRET Mécanisme d'orientation",%DB102.DBX329.4,Mécanisme d'orientation,Télécommunication
+329.5,_21_Statusword_1_W.X13_Ramp_funct_generator,BOOL,"1=générateur de rampe actif, 0=générateur de rampe non actif Mécanisme d'orientation",%DB102.DBX329.5,Mécanisme d'orientation,Télésignal
+329.6,_21_Statusword_1_W.X14_Posit_speed_setpoint,BOOL,"Valeur de consigne pour vite sse: 1=positive, 0=négative Mécanisme d'orientation",%DB102.DBX329.6,Mécanisme d'orientation,Téléréglage
+329.7,_21_Statusword_1_W.X15,BOOL,Réserve Mécanisme d'orientation 1,%DB102.DBX329.7,Mécanisme d'orientation,Télésignal
+330.0,_21_Statusword_2_W.X16_Speedometre_trace_1,BOOL,Défaut générateur de vitesse piste 1 Mécanisme d'orientation,%DB102.DBX330.0,Mécanisme d'orientation,Téléalarme
+330.1,_21_Statusword_2_W.X17_Transmission_superv,BOOL,Défaut surveillance transmis sion Mécanisme d'orientation,%DB102.DBX330.1,Mécanisme d'orientation,Téléalarme
+330.2,_21_Statusword_2_W.X18_No_overspeed,BOOL,"1=pas de survitesse, 0=survi tesse (A038 et F038) Mécanisme d'orientation",%DB102.DBX330.2,Mécanisme d'orientation,Télésignal
+330.3,_21_Statusword_2_W.X19,BOOL,Réserve Mécanisme d'orientation 2,%DB102.DBX330.3,Mécanisme d'orientation,Télésignal
+330.4,_21_Statusword_2_W.X20,BOOL,Réserve Mécanisme d'orientation 3,%DB102.DBX330.4,Mécanisme d'orientation,Télésignal
+330.5,_21_Statusword_2_W.X21_Ext_alarm_active,BOOL,"1=alarme externe active (A02 1 ou A022), 0=pas d'alarme e xterne active Mécanisme d'orientation",%DB102.DBX330.5,Mécanisme d'orientation,Téléalarme
+330.6,_21_Statusword_2_W.X22_Power_overload_alarm,BOOL,"1=avertiss.surcharge partie puiss. active (A039), 0=pas d'avertiss.surcharge Mécanisme d'orientation",%DB102.DBX330.6,Mécanisme d'orientation,Téléalarme
+330.7,_21_Statusword_2_W.X23_Power_overtemp_fault,BOOL,"1=anomalie surchauffe unité puissance active (F067),0=pa s d'anomalie surchauffe Mécanisme d'orientation",%DB102.DBX330.7,Mécanisme d'orientation,Téléalarme
+331.0,_21_Statusword_2_W.X24_Power_overtemp_alarm,BOOL,"1=avertiss.surchauffe partie puiss. active (A067), 0=pas d'avertiss.surchauffe Mécanisme d'orientation",%DB102.DBX331.0,Mécanisme d'orientation,Téléalarme
+331.1,_21_Statusword_2_W.X25_Motor_overtemp_alarm,BOOL,"1=avertiss. surchauffe moteu r active (A029), 0=pas d'ave rtiss. surchauffe Mécanisme d'orientation",%DB102.DBX331.1,Mécanisme d'orientation,Téléalarme
+331.2,_21_Statusword_2_W.X26_Motor_overtemp_fault,BOOL,"1=anomalie surchauffe moteur actif (F029), 0=pas d'anoma lie surchauffe Mécanisme d'orientation",%DB102.DBX331.2,Mécanisme d'orientation,Téléalarme
+331.3,_21_Statusword_2_W.X27_Motor_2_overtemp,BOOL,1=surchauffe moteur 2 Mécanisme d'orientation 1,%DB102.DBX331.3,Mécanisme d'orientation,Télésignal
+331.4,_21_Statusword_2_W.X28_Motor_locked_fault,BOOL,1=anomalie moteur bloqué actif (F035) 0= pas d'anomalie moteur bloqué Mécanisme d'orientation,%DB102.DBX331.4,Mécanisme d'orientation,Téléalarme
+331.5,_21_Statusword_2_W.X29_Motor_3_overtemp,BOOL,1=surchauffe moteur 3 Mécanisme d'orientation 2,%DB102.DBX331.5,Mécanisme d'orientation,Télésignal
+331.6,_21_Statusword_2_W.X30,BOOL,Réserve Mécanisme d'orientation 4,%DB102.DBX331.6,Mécanisme d'orientation,Télésignal
+331.7,_21_Statusword_2_W.X31,BOOL,Réserve Mécanisme d'orientation 5,%DB102.DBX331.7,Mécanisme d'orientation,Télésignal
+332.0,_21_Controlword_1_W.X00_On_1_active,BOOL,"1=marche,condition fonct, 0= ARRET1,arrêt par gén.impuls, puis blocage impuls. Mécanisme d'orientation",%DB102.DBX332.0,Mécanisme d'orientation,Télécommunication
+332.1,_21_Controlword_1_W.X01_On_2_active,BOOL,"1=condition de service, 0=AR RET2, blocage des impulsions Mécanisme d'orientation",%DB102.DBX332.1,Mécanisme d'orientation,Télécommunication
+332.2,_21_Controlword_1_W.X02_On_3_active,BOOL,"1=condition de service, 0=AR RET3, arrêt rapide Mécanisme d'orientation",%DB102.DBX332.2,Mécanisme d'orientation,Télécommunication
+332.3,_21_Controlword_1_W.X03_Enable_pulses,BOOL,"1=validation, libération des impulsions, 0=blocage des i mpulsions Mécanisme d'orientation",%DB102.DBX332.3,Mécanisme d'orientation,Télécommunication
+332.4,_21_Controlword_1_W.X04_EN_ramp_generator,BOOL,"1=validation générateur de r ampe, 0=mise à zéro du génér ateur de rampe Mécanisme d'orientation",%DB102.DBX332.4,Mécanisme d'orientation,Télésignal
+332.5,_21_Controlword_1_W.X05_Ramp_generator_start,BOOL,"1=démarrer générateur de ram pe, 0=geler générateur de rampe Mécanisme d'orientation",%DB102.DBX332.5,Mécanisme d'orientation,Télécommunication
+332.6,_21_Controlword_1_W.X06_Enable_setpoint,BOOL,"1=validation valeur de consi gne, 0=blocage valeur de con signe Mécanisme d'orientation",%DB102.DBX332.6,Mécanisme d'orientation,Téléréglage
+332.7,_21_Controlword_1_W.X07_Edge_acknowledge,BOOL,Acquittement front Mécanisme d'orientation,%DB102.DBX332.7,Mécanisme d'orientation,Télécommunication
+333.0,_21_Controlword_1_W.X08_Inching_bit_0_on,BOOL,1=commande par à-coups bit 0 Mécanisme d'orientation 1,%DB102.DBX333.0,Mécanisme d'orientation,Télécommunication
+333.1,_21_Controlword_1_W.X09_Inching_bit_1_on,BOOL,1=commande par à-coups bit 1 Mécanisme d'orientation 2,%DB102.DBX333.1,Mécanisme d'orientation,Télécommunication
+333.2,_21_Controlword_1_W.X10_Control_request,BOOL,"1=guidage demandé, 0=pas de guidage demandé Mécanisme d'orientation",%DB102.DBX333.2,Mécanisme d'orientation,Télésignal
+333.3,_21_Controlword_1_W.X11_SEL_claw_grab_op,BOOL,1=sélection benne polype Mécanisme d'orientation,%DB102.DBX333.3,Mécanisme d'orientation,Télésignal
+333.4,_21_Controlword_1_W.X12_SEL_special_grab_op,BOOL,1=sélection benne spéciale Mécanisme d'orientation,%DB102.DBX333.4,Mécanisme d'orientation,Télésignal
+333.5,_21_Controlword_1_W.X13_EN_hatch_scrap_out,BOOL,1=validation: gratter le fond de cale avec la benne Mécanisme d'orientation,%DB102.DBX333.5,Mécanisme d'orientation,Télésignal
+333.6,_21_Controlword_1_W.X14_Incr_setp_lowering,BOOL,1=augmentation valeur de con signe pour abaissement Mécanisme d'orientation,%DB102.DBX333.6,Mécanisme d'orientation,Téléréglage
+333.7,_21_Controlword_1_W.X15_No_external_fault,BOOL,"1=pas de défaut externe, 0=D éfaut externe 1 (F021) Mécanisme d'orientation",%DB102.DBX333.7,Mécanisme d'orientation,Téléalarme
+334.0,_21_Controlword_2_W.X16,BOOL,Mécanisme d'orientation 2,%DB102.DBX334.0,Mécanisme d'orientation,Télésignal
+334.1,_21_Controlword_2_W.X17,BOOL,P DWON Mécanisme d'orientation,%DB102.DBX334.1,Mécanisme d'orientation,Télésignal
+334.2,_21_Controlword_2_W.X18,BOOL,Mécanisme d'orientation 3,%DB102.DBX334.2,Mécanisme d'orientation,Télésignal
+334.3,_21_Controlword_2_W.X19,BOOL,w C mw Mécanisme d'orientation,%DB102.DBX334.3,Mécanisme d'orientation,Télésignal
+334.4,_21_Controlword_2_W.X20,BOOL,w Mécanisme d'orientation,%DB102.DBX334.4,Mécanisme d'orientation,Télésignal
+334.5,_21_Controlword_2_W.X21,BOOL,Mécanisme d'orientation 4,%DB102.DBX334.5,Mécanisme d'orientation,Télésignal
+334.6,_21_Controlword_2_W.X22,BOOL,Mécanisme d'orientation 5,%DB102.DBX334.6,Mécanisme d'orientation,Télésignal
+334.7,_21_Controlword_2_W.X23_Standstill_field,BOOL,Excitation à l'arrêt Mécanisme d'orientation,%DB102.DBX334.7,Mécanisme d'orientation,Télécommunication
+335.0,_21_Controlword_2_W.X24,BOOL,Mécanisme d'orientation 6,%DB102.DBX335.0,Mécanisme d'orientation,Télésignal
+335.1,_21_Controlword_2_W.X25,BOOL,Mécanisme d'orientation 7,%DB102.DBX335.1,Mécanisme d'orientation,Télésignal
+335.2,_21_Controlword_2_W.X26,BOOL,Mécanisme d'orientation 8,%DB102.DBX335.2,Mécanisme d'orientation,Télésignal
+335.3,_21_Controlword_2_W.X27,BOOL,Mécanisme d'orientation 9,%DB102.DBX335.3,Mécanisme d'orientation,Télésignal
+335.4,_21_Controlword_2_W.X28,BOOL,Mécanisme d'orientation 10,%DB102.DBX335.4,Mécanisme d'orientation,Télésignal
+335.5,_21_Controlword_2_W.X29,BOOL,Mécanisme d'orientation 11,%DB102.DBX335.5,Mécanisme d'orientation,Télésignal
+335.6,_21_Controlword_2_W.X30,BOOL,Mécanisme d'orientation 12,%DB102.DBX335.6,Mécanisme d'orientation,Télésignal
+335.7,_21_Controlword_2_W.X31,BOOL,Mécanisme d'orientation 13,%DB102.DBX335.7,Mécanisme d'orientation,Télésignal
+336.0,_31_Setpoint_X_R,REAL,Méc. de volée: valeur de con signe de vitesse Méc. variation de volée hydraul.,%DB102.DBD336,Méc. variation de volée hydraul.,Téléréglage
+340.0,_31_Setpoint_Y_R,REAL,Trans. consigne du méc. var. volée à la soupape proport. du cyl. de var. volée Méc. variation de volée hydraul.,%DB102.DBD340,Méc. variation de volée hydraul.,Téléréglage
+344.0,_31_RAD_limit_POS_R,REAL,Relevage flèche: calculer la portée admissible Méc. variation de volée hydraul.,%DB102.DBD344,Méc. variation de volée hydraul.,Télémesure
+348.0,_31_RAD_limit_NEG_R,REAL,Abaissement flèche: calculer la portée admissible Méc. variation de volée hydraul.,%DB102.DBD348,Méc. variation de volée hydraul.,Télémesure
+352.0,_31_RAD_limit_NEG_Vi_R,REAL,Abaissement flèche pour la v isualisation: calculer la portée admissible Méc. variation de volée hydraul.,%DB102.DBD352,Méc. variation de volée hydraul.,Télémesure
+356.0,_31_RAD_perm_cent_R,REAL,Portée admissible en pourcen tage Méc. variation de volée hydraul.,%DB102.DBD356,Méc. variation de volée hydraul.,Télémesure
+360.0,_31_MS_I_X_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. variation de volée hydraul. 1,%DB102.DBD360,Méc. variation de volée hydraul.,Téléréglage
+364.0,_31_MS_I_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. variation de volée hydraul. 2,%DB102.DBD364,Méc. variation de volée hydraul.,Téléréglage
+368.0,_31_Z_F_Y_R,REAL,Calculer la valeur de consig ne en fonction de la portée Méc. variation de volée hydraul.,%DB102.DBD368,Méc. variation de volée hydraul.,Télémesure
+372.0,_31_MS_M_Y_R,REAL,Réduction valeur de consigne de la soupape d’étranglemen t du méc. de volée Méc. variation de volée hydraul.,%DB102.DBD372,Méc. variation de volée hydraul.,Téléréglage
+376.0,_31_MS_JOG_Y_R,REAL,Consigne de marche par à-cou ps Méc. variation de volée hydraul.,%DB102.DBD376,Méc. variation de volée hydraul.,Téléréglage
+380.0,_31_MS_pre_limit_Y_R,REAL,Valeur de consigne vitesse p ré-fin de course Méc. variation de volée hydraul.,%DB102.DBD380,Méc. variation de volée hydraul.,Téléréglage
+384.0,_31_Ramp_G_Y_R,REAL,Générateur de rampe Méc. variation de volée hydraul.,%DB102.DBD384,Méc. variation de volée hydraul.,Télémesure
+388.0,_31_Press_M3_R,REAL,Pression du côté tige M3 Méc. variation de volée hydraul.,%DB102.DBD388,Méc. variation de volée hydraul.,Télémesure
+392.0,_31_Press_M4_R,REAL,Pression du côté fond M4 Méc. variation de volée hydraul.,%DB102.DBD392,Méc. variation de volée hydraul.,Télémesure
+396.0,_31_Res1,REAL,Méc. variation de volée hydraul. 1,%DB102.DBD396,Méc. variation de volée hydraul.,Télémesure
+400.0,_31_Res2,REAL,Méc. variation de volée hydraul. 2,%DB102.DBD400,Méc. variation de volée hydraul.,Télémesure
+404.0,_31_v_actual_R,REAL,Vitesse réelle du cylindre de variation de volée Méc. variation de volée hydraul.,%DB102.DBD404,Méc. variation de volée hydraul.,Télémesure
+408.0,_31_s_actual_R,REAL,Valeur réelle course de la s oupape proportionnelle Méc. variation de volée hydraul.,%DB102.DBD408,Méc. variation de volée hydraul.,Télémesure
+412.0,_31_s_diff_R,REAL,Ecart valeur réelle/valeur de consigne de la soupape pro port. du méc.volée Méc. variation de volée hydraul.,%DB102.DBD412,Méc. variation de volée hydraul.,Téléréglage
+416.0,_31_Res3,REAL,Méc. variation de volée hydraul. 3,%DB102.DBD416,Méc. variation de volée hydraul.,Télémesure
+420.0,_31_Res4,REAL,Méc. variation de volée hydraul. 4,%DB102.DBD420,Méc. variation de volée hydraul.,Télémesure
+424.0,_42_Travel_Setpoint_R,REAL,Valeur de consigne translati on Méc. translation méc.-hydraul.,%DB102.DBD424,Méc. translation méc.-hydraul.,Téléréglage
+428.0,_42_Setpoint_Travel_Y_R,REAL,Translation . entrée de la v aleur de consigne générateur de rampe Méc. translation méc.-hydraul.,%DB102.DBD428,Méc. translation méc.-hydraul.,Téléréglage
+432.0,_42_Steer_Setpoint_R,REAL,Transmission de consigne pour l’entrée du générateur de rampe de direction Méc. translation méc.-hydraul.,%DB102.DBD432,Méc. translation méc.-hydraul.,Téléréglage
+436.0,_42_Setpoint_Steer_Y_R,REAL,Transmission de consigne pour la direction Méc. translation méc.-hydraul.,%DB102.DBD436,Méc. translation méc.-hydraul.,Téléréglage
+440.0,_42_Brake_Setpoint_R,REAL,Valeur de consigne freinage Méc. translation méc.-hydraul.,%DB102.DBD440,Méc. translation méc.-hydraul.,Téléréglage
+444.0,_42_Setpoint_Brake_Y_R,REAL,Valeur de consigne freinage avant générateur de rampe Méc. translation méc.-hydraul.,%DB102.DBD444,Méc. translation méc.-hydraul.,Téléréglage
+448.0,_42_MS11_X_R,REAL,Ordre: lire et adapter val. consigne pour manipulateur t ransl. cab. de tour Méc. translation méc.-hydraul. 1,%DB102.DBD448,Méc. translation méc.-hydraul.,Téléréglage
+452.0,_42_MS11_Y_R,REAL,Ordre: lire et adapter val. consigne pour manipulateur t ransl. cab. de tour Méc. translation méc.-hydraul. 2,%DB102.DBD452,Méc. translation méc.-hydraul.,Téléréglage
+456.0,_42_MS21_X_R,REAL,Ordre: lire et adapter val. consigne pour manipulateur t ransl. cab. conduite Méc. translation méc.-hydraul. 1,%DB102.DBD456,Méc. translation méc.-hydraul.,Téléréglage
+460.0,_42_MS21_Y_R,REAL,Ordre: lire et adapter val. consigne pour manipulateur t ransl. cab. conduite Méc. translation méc.-hydraul. 2,%DB102.DBD460,Méc. translation méc.-hydraul.,Téléréglage
+464.0,_42_MS31_Y_R,REAL,Activer pré-fin de course Méc. translation méc.-hydraul. 1,%DB102.DBD464,Méc. translation méc.-hydraul.,Télémesure
+468.0,_42_MS12_X_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. translation méc.-hydraul. 1,%DB102.DBD468,Méc. translation méc.-hydraul.,Téléréglage
+472.0,_42_MS12_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. translation méc.-hydraul. 2,%DB102.DBD472,Méc. translation méc.-hydraul.,Téléréglage
+476.0,_42_MS22_X_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. translation méc.-hydraul. 3,%DB102.DBD476,Méc. translation méc.-hydraul.,Téléréglage
+480.0,_42_MS22_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. translation méc.-hydraul. 4,%DB102.DBD480,Méc. translation méc.-hydraul.,Téléréglage
+484.0,_42_MS32_Y_R,REAL,Activer pré-fin de course P DWON Méc. translation méc.-hydraul.,%DB102.DBD484,Méc. translation méc.-hydraul.,Télémesure
+488.0,_42_MS13_X_R,REAL,Ordre: lire et adapter valeu r de consigne w C mw Méc. translation méc.-hydraul.,%DB102.DBD488,Méc. translation méc.-hydraul.,Téléréglage
+492.0,_42_MS13_Y_R,REAL,Ordre: lire et adapter w valeu r de consigne Méc. translation méc.-hydraul.,%DB102.DBD492,Méc. translation méc.-hydraul.,Téléréglage
+496.0,_42_MS23_X_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. translation méc.-hydraul. 5,%DB102.DBD496,Méc. translation méc.-hydraul.,Téléréglage
+500.0,_42_MS23_Y_R,REAL,Ordre: lire et adapter valeu r de consigne Méc. translation méc.-hydraul. 6,%DB102.DBD500,Méc. translation méc.-hydraul.,Téléréglage
+504.0,_42_MS33_Y_R,REAL,Activer pré-fin de course Méc. translation méc.-hydraul. 2,%DB102.DBD504,Méc. translation méc.-hydraul.,Télémesure
+508.0,_42_Press_work_brake_R,REAL,Interrupteur à pression du frein de service Méc. translation méc.-hydraul.,%DB102.DBD508,Méc. translation méc.-hydraul.,Télémesure
+512.0,_42_Press_accu_R,REAL,Interrupteur à pression de l ’accumulateur de pression Méc. translation méc.-hydraul.,%DB102.DBD512,Méc. translation méc.-hydraul.,Télémesure
+516.0,_42_Press_park_brake_R,REAL,Interrupteur à pression du frein de stationnement Méc. translation méc.-hydraul.,%DB102.DBD516,Méc. translation méc.-hydraul.,Télémesure
+520.0,_42_Res4,REAL,Méc. translation méc.-hydraul.,%DB102.DBD520,Méc. translation méc.-hydraul.,Télémesure
+524.0,_51_spreader_typ,INT,"Type de spreader : 1=20,30,3 5,40', 2=20,30,40,45', 3=20, 30,40' Spreader",%DB102.DBW524,Spreader,Télémesure
+526.0,_51_Res1,REAL,Spreader 1,%DB102.DBD526,Spreader,Télémesure
+530.0,_51_Res2,REAL,Spreader 2,%DB102.DBD530,Spreader,Télémesure
+534.0,_53_CTU_CV_I,INT,Valeur de comptage:commande de démarrage enrouleur à câble flèche pour redémar. Enrouleur à câble de flèche,%DB102.DBW534,Enrouleur à câble de flèche,Télécommunication
+536.0,_53_Res1,INT,Enrouleur à câble de flèche,%DB102.DBW536,Enrouleur à câble de flèche,Télémesure
+538.0,_61_Bruttoload_PT1_Y_n_R,REAL,Lissage charge brute Equipements de sécurité,%DB102.DBD538,Equipements de sécurité,Télémesure
+542.0,_61_RAD_PT1_Y_n_R,REAL,Lissage de la portée Equipements de sécurité,%DB102.DBD542,Equipements de sécurité,Télémesure
+546.0,_61_B1_RAD_Setvalue_R,REAL,Position de la flèche Equipements de sécurité,%DB102.DBD546,Equipements de sécurité,Télémesure
+550.0,_61_Rad_S_R,REAL,Portée calculée Equipements de sécurité,%DB102.DBD550,Equipements de sécurité,Télémesure
+554.0,_61_Wind_actual_R,REAL,Vitesse du vent valeur réell e Equipements de sécurité,%DB102.DBD554,Equipements de sécurité,Télémesure
+558.0,_61_locking_area,BOOL,Superstructure en position b rochage Equipements de sécurité,%DB102.DBX558.0,Equipements de sécurité,Téléalarme
+558.1,_61_straight_pos,BOOL,Superstructure en position 1 80° Equipements de sécurité,%DB102.DBX558.1,Equipements de sécurité,Téléalarme
+560.0,_61_Res1,REAL,Equipements de sécurité 1,%DB102.DBD560,Equipements de sécurité,Télémesure
+564.0,_61_Res2,REAL,Equipements de sécurité 2,%DB102.DBD564,Equipements de sécurité,Télémesure
+568.0,_62_Angle_X_R,REAL,Calage: angle de l’axe X Calage,%DB102.DBD568,Calage,Télémesure
+572.0,_62_Angle_Y_R,REAL,Calage: angle de l’axe Y Calage,%DB102.DBD572,Calage,Télémesure
+576.0,_62_Statusword_W.X00_extended_fr_le,BOOL,Poutre de calage rouge (avan t gauche) sortie Calage,%DB102.DBX576.0,Calage,Télésignal
+576.1,_62_Statusword_W.X01_extended_fr_ri,BOOL,Poutre de calage bleue (avan t droite) sortie Calage,%DB102.DBX576.1,Calage,Télésignal
+576.2,_62_Statusword_W.X02_extended_re_le,BOOL,Poutre de calage verte (arri ère gauche) sortie Calage,%DB102.DBX576.2,Calage,Télésignal
+576.3,_62_Statusword_W.X03_extended_re_ri,BOOL,Poutre de calage jaune (arri ère droite) sortie Calage,%DB102.DBX576.3,Calage,Télésignal
+576.4,_62_Statusword_W.X04_retracted_fr_le,BOOL,Poutre de calage rouge (avan t gauche) rentrée Calage,%DB102.DBX576.4,Calage,Télésignal
+576.5,_62_Statusword_W.X05_retracted_fr_ri,BOOL,Poutre de calage bleue (avan t droite) rentrée Calage,%DB102.DBX576.5,Calage,Télésignal
+576.6,_62_Statusword_W.X06_retracted_re_le,BOOL,Poutre de calage verte (arri ère gauche) rentrée Calage,%DB102.DBX576.6,Calage,Télésignal
+576.7,_62_Statusword_W.X07_retracted_re_ri,BOOL,Poutre de calage jaune (arri ère droite) rentrée Calage,%DB102.DBX576.7,Calage,Télésignal
+577.0,_62_Statusword_W.X08_propped_fr_le,BOOL,Patin de calage rouge (avant gauche): posé au sol Calage,%DB102.DBX577.0,Calage,Télésignal
+577.1,_62_Statusword_W.X09_propped_fr_ri,BOOL,Patin de calage bleu (avant droit): posé au sol Calage,%DB102.DBX577.1,Calage,Télésignal
+577.2,_62_Statusword_W.X10_propped_re_le,BOOL,Patin de calage vert (arrièr e gauche): posé au sol Calage,%DB102.DBX577.2,Calage,Télésignal
+577.3,_62_Statusword_W.X11_propped_re_ri,BOOL,Patin de calage jaune (arriè re droit): posé au sol Calage,%DB102.DBX577.3,Calage,Télésignal
+577.4,_62_Statusword_W.X12_raised_fr_le,BOOL,Patin de calage rouge (avant gauche): relevés Calage,%DB102.DBX577.4,Calage,Télésignal
+577.5,_62_Statusword_W.X13_raised_fr_ri,BOOL,Patin de calage bleu (avant droit): relevés Calage,%DB102.DBX577.5,Calage,Télésignal
+577.6,_62_Statusword_W.X14_raised_re_le,BOOL,Patin de calage vert (arrièr e gauche): relevés Calage,%DB102.DBX577.6,Calage,Télésignal
+577.7,_62_Statusword_W.X15_raised_re_ri,BOOL,Patin de calage jaune (arriè re droit): relevés Calage,%DB102.DBX577.7,Calage,Télésignal
+578.0,_62_Controlword_W.X00_extend_fr_le,BOOL,Sortir la poutre de calage rouge (avant gauche) Calage 1,%DB102.DBX578.0,Calage,Télésignal
+578.1,_62_Controlword_W.X01_extend_fr_ri,BOOL,Sortir la poutre de calage bleue (avant droite) Calage 1,%DB102.DBX578.1,Calage,Télésignal
+578.2,_62_Controlword_W.X02_extend_re_le,BOOL,Sortir la poutre de calage verte (arrière gauche) Calage 1,%DB102.DBX578.2,Calage,Télésignal
+578.3,_62_Controlword_W.X03_extend_re_ri,BOOL,Sortir la poutre de calage jaune (arrière droite) Calage 1,%DB102.DBX578.3,Calage,Télésignal
+578.4,_62_Controlword_W.X04_retract_fr_le,BOOL,Rentrer la poutre de calage rouge (avant gauche) Calage 1,%DB102.DBX578.4,Calage,Télésignal
+578.5,_62_Controlword_W.X05_retract_fr_ri,BOOL,Rentrer la poutre de calage bleue (avant droite) Calage 1,%DB102.DBX578.5,Calage,Télésignal
+578.6,_62_Controlword_W.X06_retract_re_le,BOOL,Rentrer la poutre de calage verte (arrière gauche) Calage 1,%DB102.DBX578.6,Calage,Télésignal
+578.7,_62_Controlword_W.X07_retract_re_ri,BOOL,Rentrer la poutre de calage jaune (arrière droite) Calage 1,%DB102.DBX578.7,Calage,Télésignal
+579.0,_62_Controlword_W.X08_prop_fr_le,BOOL,Patin de calage rouge (avant gauche): descente Calage 1,%DB102.DBX579.0,Calage,Télésignal
+579.1,_62_Controlword_W.X09_prop_fr_ri,BOOL,Patin de calage bleu (avant droit): descente P DWON Calage,%DB102.DBX579.1,Calage,Télésignal
+579.2,_62_Controlword_W.X10_prop_re_le,BOOL,Patin de calage vert (arrièr e gauche): descente w C mw Calage,%DB102.DBX579.2,Calage,Télésignal
+579.3,_62_Controlword_W.X11_prop_re_ri,BOOL,Patin de calage jaune w (arriè re droit): descente Calage,%DB102.DBX579.3,Calage,Télésignal
+579.4,_62_Controlword_W.X12_raise_fr_le,BOOL,Patin de calage rouge (avant gauche): relevage Calage 1,%DB102.DBX579.4,Calage,Télésignal
+579.5,_62_Controlword_W.X13_raise_fr_ri,BOOL,Patin de calage bleu (avant droit): relevage Calage 1,%DB102.DBX579.5,Calage,Télésignal
+579.6,_62_Controlword_W.X14_raise_re_le,BOOL,Patin de calage vert (arrièr e gauche): relevage Calage 1,%DB102.DBX579.6,Calage,Télésignal
+579.7,_62_Controlword_W.X15_raise_re_ri,BOOL,Patin de calage jaune (arriè re droit): relevage Calage 1,%DB102.DBX579.7,Calage,Télésignal
+580.0,_62_Controlword_Niveau_W.X00_extend_fr_le,BOOL,Sortir la poutre de calage rouge (avant gauche) Calage 2,%DB102.DBX580.0,Calage,Télésignal
+580.1,_62_Controlword_Niveau_W.X01_extend_fr_ri,BOOL,Sortir la poutre de calage bleue (avant droite) Calage 2,%DB102.DBX580.1,Calage,Télésignal
+580.2,_62_Controlword_Niveau_W.X02_extend_re_le,BOOL,Sortir la poutre de calage verte (arrière gauche) Calage 2,%DB102.DBX580.2,Calage,Télésignal
+580.3,_62_Controlword_Niveau_W.X03_extend_re_ri,BOOL,Sortir la poutre de calage jaune (arrière droite) Calage 2,%DB102.DBX580.3,Calage,Télésignal
+580.4,_62_Controlword_Niveau_W.X04_retract_fr_le,BOOL,Rentrer la poutre de calage rouge (avant gauche) Calage 2,%DB102.DBX580.4,Calage,Télésignal
+580.5,_62_Controlword_Niveau_W.X05_retract_fr_ri,BOOL,Rentrer la poutre de calage bleue (avant droite) Calage 2,%DB102.DBX580.5,Calage,Télésignal
+580.6,_62_Controlword_Niveau_W.X06_retract_re_le,BOOL,Rentrer la poutre de calage verte (arrière gauche) Calage 2,%DB102.DBX580.6,Calage,Télésignal
+580.7,_62_Controlword_Niveau_W.X07_retract_re_ri,BOOL,Rentrer la poutre de calage jaune (arrière droite) Calage 2,%DB102.DBX580.7,Calage,Télésignal
+581.0,_62_Controlword_Niveau_W.X08_prop_fr_le,BOOL,Patin de calage rouge (avant gauche): descente Calage 2,%DB102.DBX581.0,Calage,Télésignal
+581.1,_62_Controlword_Niveau_W.X09_prop_fr_ri,BOOL,Patin de calage bleu (avant droit): descente Calage 1,%DB102.DBX581.1,Calage,Télésignal
+581.2,_62_Controlword_Niveau_W.X10_prop_re_le,BOOL,Patin de calage vert (arrièr e gauche): descente Calage 1,%DB102.DBX581.2,Calage,Télésignal
+581.3,_62_Controlword_Niveau_W.X11_prop_re_ri,BOOL,Patin de calage jaune (arriè re droit): descente Calage 1,%DB102.DBX581.3,Calage,Télésignal
+581.4,_62_Controlword_Niveau_W.X12_raise_fr_le,BOOL,Patin de calage rouge (avant gauche): relevage Calage 2,%DB102.DBX581.4,Calage,Télésignal
+581.5,_62_Controlword_Niveau_W.X13_raise_fr_ri,BOOL,Patin de calage bleu (avant droit): relevage Calage 2,%DB102.DBX581.5,Calage,Télésignal
+581.6,_62_Controlword_Niveau_W.X14_raise_re_le,BOOL,Patin de calage vert (arrièr e gauche): relevage Calage 2,%DB102.DBX581.6,Calage,Télésignal
+581.7,_62_Controlword_Niveau_W.X15_raise_re_ri,BOOL,Patin de calage jaune (arriè re droit): relevage Calage 2,%DB102.DBX581.7,Calage,Télésignal
+582.0,_62_Controlword_Auto_W.X00_extend_fr_le,BOOL,Sortir la poutre de calage rouge (avant gauche) Calage 3,%DB102.DBX582.0,Calage,Télésignal
+582.1,_62_Controlword_Auto_W.X01_extend_fr_ri,BOOL,Sortir la poutre de calage bleue (avant droite) Calage 3,%DB102.DBX582.1,Calage,Télésignal
+582.2,_62_Controlword_Auto_W.X02_extend_re_le,BOOL,Sortir la poutre de calage verte (arrière gauche) Calage 3,%DB102.DBX582.2,Calage,Télésignal
+582.3,_62_Controlword_Auto_W.X03_extend_re_ri,BOOL,Sortir la poutre de calage jaune (arrière droite) Calage 3,%DB102.DBX582.3,Calage,Télésignal
+582.4,_62_Controlword_Auto_W.X04_retract_fr_le,BOOL,Rentrer la poutre de calage rouge (avant gauche) Calage 3,%DB102.DBX582.4,Calage,Télésignal
+582.5,_62_Controlword_Auto_W.X05_retract_fr_ri,BOOL,Rentrer la poutre de calage bleue (avant droite) Calage 3,%DB102.DBX582.5,Calage,Télésignal
+582.6,_62_Controlword_Auto_W.X06_retract_re_le,BOOL,Rentrer la poutre de calage verte (arrière gauche) Calage 3,%DB102.DBX582.6,Calage,Télésignal
+582.7,_62_Controlword_Auto_W.X07_retract_re_ri,BOOL,Rentrer la poutre de calage jaune (arrière droite) Calage 3,%DB102.DBX582.7,Calage,Télésignal
+583.0,_62_Controlword_Auto_W.X08_prop_fr_le,BOOL,Patin de calage rouge (avant gauche): descente Calage 3,%DB102.DBX583.0,Calage,Télésignal
+583.1,_62_Controlword_Auto_W.X09_prop_fr_ri,BOOL,Patin de calage bleu (avant droit): descente Calage 2,%DB102.DBX583.1,Calage,Télésignal
+583.2,_62_Controlword_Auto_W.X10_prop_re_le,BOOL,Patin de calage vert (arrièr e gauche): descente Calage 2,%DB102.DBX583.2,Calage,Télésignal
+583.3,_62_Controlword_Auto_W.X11_prop_re_ri,BOOL,Patin de calage jaune (arriè re droit): descente Calage 2,%DB102.DBX583.3,Calage,Télésignal
+583.4,_62_Controlword_Auto_W.X12_raise_fr_le,BOOL,Patin de calage rouge (avant gauche): relevage Calage 3,%DB102.DBX583.4,Calage,Télésignal
+583.5,_62_Controlword_Auto_W.X13_raise_fr_ri,BOOL,Patin de calage bleu (avant droit): relevage Calage 3,%DB102.DBX583.5,Calage,Télésignal
+583.6,_62_Controlword_Auto_W.X14_raise_re_le,BOOL,Patin de calage vert (arrièr e gauche): relevage Calage 3,%DB102.DBX583.6,Calage,Télésignal
+583.7,_62_Controlword_Auto_W.X15_raise_re_ri,BOOL,Patin de calage jaune (arriè re droit): relevage Calage 3,%DB102.DBX583.7,Calage,Télésignal
+584.0,_62_Res3,REAL,Calage 1,%DB102.DBD584,Calage,Télémesure
+588.0,_62_Res4,REAL,Calage 2,%DB102.DBD588,Calage,Télémesure
+592.0,_63_Bruttoload_R,REAL,Charge brute en tonnes Contrôleur d’état de charge,%DB102.DBD592,Contrôleur d’état de charge,Télémesure
+596.0,_63_Taraload_R,REAL,Tare de la charge en tonnes Contrôleur d’état de charge,%DB102.DBD596,Contrôleur d’état de charge,Télémesure
+600.0,_63_Nettoload_R,REAL,Charge nette en tonnes Contrôleur d’état de charge,%DB102.DBD600,Contrôleur d’état de charge,Télémesure
+604.0,_63_Perm_Bruttoload_R,REAL,Charge brute en tonnes admis sible Contrôleur d’état de charge,%DB102.DBD604,Contrôleur d’état de charge,Télémesure
+608.0,_63_Perm_Bruttoload_RX_R,REAL,Charge brute en tonnes en portée + x-mètres Contrôleur d’état de charge,%DB102.DBD608,Contrôleur d’état de charge,Télémesure
+612.0,_63_RAD_Load_max_R,REAL,Portée: régime admissible en fonction de la charge Contrôleur d’état de charge,%DB102.DBD612,Contrôleur d’état de charge,Télémesure
+616.0,_63_RAD_actual_R,REAL,Portée en mètres Contrôleur d’état de charge,%DB102.DBD616,Contrôleur d’état de charge,Télémesure
+620.0,_63_Perm_Nettoload_R,REAL,Charge nette admissible en t onnes Contrôleur d’état de charge,%DB102.DBD620,Contrôleur d’état de charge,Télémesure
+624.0,_63_Bruttoload_relativ_R,REAL,Charge brute relative P DWON Contrôleur d’état de charge,%DB102.DBD624,Contrôleur d’état de charge,Télémesure
+628.0,_63_Load_torque_R,REAL,Couple de charge en mètres x tonnes (portée x w charge) C mw Contrôleur d’état de charge,%DB102.DBD628,Contrôleur d’état de charge,Télémesure
+632.0,_63_Curve_No_I,INT,Courbe sélectionnée w Contrôleur d’état de charge,%DB102.DBW632,Contrôleur d’état de charge,Télémesure
+634.0,_63_SLI_Test_No_I,INT,Numéro courbe de charge: test CEC Contrôleur d’état de charge,%DB102.DBW634,Contrôleur d’état de charge,Télémesure
+636.0,_63_Res1,REAL,Contrôleur d’état de charge 1,%DB102.DBD636,Contrôleur d’état de charge,Télémesure
+640.0,_63_Res2,REAL,Contrôleur d’état de charge 2,%DB102.DBD640,Contrôleur d’état de charge,Télémesure
+644.0,_63_Res3,REAL,Contrôleur d’état de charge 3,%DB102.DBD644,Contrôleur d’état de charge,Télémesure
+648.0,_63_Res4,REAL,Contrôleur d’état de charge 4,%DB102.DBD648,Contrôleur d’état de charge,Télémesure
+652.0,_91_m_ft_R,REAL,"Facteur dépendant des unités pour portée/hauteur de levage m = 1, ft = 3.2808 Commande centralisée CPU programmable",%DB102.DBD652,Commande centralisée CPU programmable,Télémesure
+656.0,_91_t_sht_R,REAL,"Facteur dépendant des unités pour charge, t = 1, sht = 1 .1023 Commande centralisée CPU programmable",%DB102.DBD656,Commande centralisée CPU programmable,Télémesure
+660.0,_91_m_s_miles_h_R,REAL,"Facteur dépendant des unités pour vitesse du vent m/S = 1, miles/h = 2.2369 Commande centralisée CPU programmable",%DB102.DBD660,Commande centralisée CPU programmable,Télémesure
+664.0,_91_Lifting_gear_code_1,INT,Code moyens préh:1e pos 0=cr och1=spr2=twi3=benne4=b4c5=s péc6=palon7=poly8=coqu Commande centralisée CPU programmable,%DB102.DBW664,Commande centralisée CPU programmable,Télécommunication
+666.0,_91_Lifting_gear_code_2,INT,Code moyen de préhension: 2è me mot sélectionné par le gr utier Commande centralisée CPU programmable,%DB102.DBW666,Commande centralisée CPU programmable,Télécommunication
+668.0,_91_Res1,REAL,Commande centralisée CPU programmable 1,%DB102.DBD668,Commande centralisée CPU programmable,Télémesure
+672.0,_91_Res2,REAL,Commande centralisée CPU programmable 2,%DB102.DBD672,Commande centralisée CPU programmable,Télémesure
+676.0,_91_Res3,REAL,Commande centralisée CPU programmable 3,%DB102.DBD676,Commande centralisée CPU programmable,Télémesure
+680.0,_91_Res4,REAL,Commande centralisée CPU programmable 4,%DB102.DBD680,Commande centralisée CPU programmable,Télémesure
+684.0,Cycle_Time_R,REAL,Temps de cycle effectif,%DB102.DBD684,,Télémesure
+688.0,Prev_Cycle_Time_R,REAL,Temps de cycle précédent,%DB102.DBD688,,Télémesure
+692.0,Used_slaves_old.Slave_4,BOOL,Salle électrique 1 1,%DB102.DBX692.0,,Télésignal
+692.1,Used_slaves_old.Slave_8,BOOL,Salle électrique 2 2,%DB102.DBX692.1,,Télésignal
+692.2,Used_slaves_old.Slave_12,BOOL,Mécanisme de levage Méc. levage 2 / Méc. fermeture,%DB102.DBX692.2,Méc. levage 2 / Méc. fermeture,Télésignal
+692.3,Used_slaves_old.Slave_16,BOOL,Méc. fermeture,%DB102.DBX692.3,,Télésignal
+692.4,Used_slaves_old.Slave_20,BOOL,Mécanisme d'orientation 14,%DB102.DBX692.4,,Télésignal
+692.5,Used_slaves_old.Slave_24,BOOL,Cabine de la tour 1 1,%DB102.DBX692.5,,Télécommunication
+692.6,Used_slaves_old.Slave_28,BOOL,Cabine de la tour 2 2,%DB102.DBX692.6,,Télécommunication
+692.7,Used_slaves_old.Slave_32,BOOL,Châssis,%DB102.DBX692.7,,Télésignal
+693.0,Used_slaves_old.Slave_36,BOOL,Cabine de conduite,%DB102.DBX693.0,,Télécommunication
+693.1,Used_slaves_old.Slave_40,BOOL,Réserve 1,%DB102.DBX693.1,,Télésignal
+693.2,Used_slaves_old.Slave_44,BOOL,Réserve 2,%DB102.DBX693.2,,Télésignal
+693.3,Used_slaves_old.Slave_48,BOOL,Réserve 3,%DB102.DBX693.3,,Télésignal
+693.4,Used_slaves_old.Slave_13,BOOL,Entraînement mécanisme de levage,%DB102.DBX693.4,,Télésignal
+693.5,Used_slaves_old.Slave_17,BOOL,Entraînement du mécanisme de fermeture Treuil auxiliaire,%DB102.DBX693.5,Treuil auxiliaire,Télésignal
+693.6,Used_slaves_old.Slave_18,BOOL,Entraînement mécanisme de tr anslation,%DB102.DBX693.6,,Télésignal
+693.7,Used_slaves_old.Slave_19,BOOL,Réserve 4,%DB102.DBX693.7,,Télésignal
+694.0,Used_slaves_old.Slave_21,BOOL,Entraînement mécanisme d'ori entation Mécanisme d'orientation,%DB102.DBX694.0,Mécanisme d'orientation,Télésignal
+694.1,Used_slaves_old.Slave_60,BOOL,Bus ASI superstructure,%DB102.DBX694.1,,Télésignal
+694.2,Used_slaves_old.Slave_70,BOOL,Bus ASI châssis,%DB102.DBX694.2,,Télésignal
+694.3,Used_slaves_old.Slave_25,BOOL,Anti sway,%DB102.DBX694.3,,Télésignal
+694.4,Used_slaves_old.Slave_90,BOOL,Radiotélécommande,%DB102.DBX694.4,,Télécommunication
+694.5,Used_slaves_old.Slave_93,BOOL,Cabine de tour : manipulateu r droit Commande châssis progr.,%DB102.DBX694.5,Commande châssis progr.,Télécommunication
+694.6,Used_slaves_old.Slave_94,BOOL,Cabine de tour : manipulateu r gauche Commandes numériques,%DB102.DBX694.6,Commandes numériques,Télécommunication
