@@ -22,3 +22,7 @@ python -c "from ems_tag_parser import load_csv_tags; tags=load_csv_tags('HMK_300
 ```
 
 To run the test script with the local test config, copy `.env.test` to `.env` inside this directory first.
+
+Logs:
+- `Ems-edge-test.py` writes console output, warnings, and tracebacks to `ems-edge-test.log`.
+- Override the path with `EMS_EDGE_LOG_FILE=/path/to/file.log python Ems-edge-test.py`.

@@ -7,8 +7,50 @@ import csv
 import re
 import os
 import contextlib
+import traceback
 from datetime import datetime
 from snap7.util import get_real, get_int, get_dint, get_bool
+
+
+LOG_FILE = os.environ.get('EMS_EDGE_LOG_FILE', 'ems-edge-test.log')
+
+
+class _TeeStream:
+    def __init__(self, *streams):
+        self._streams = streams
+
+    def write(self, data):
+        for stream in self._streams:
+            stream.write(data)
+            stream.flush()
+        return len(data)
+
+    def flush(self):
+        for stream in self._streams:
+            stream.flush()
+
+    def isatty(self):
+        return any(getattr(stream, 'isatty', lambda: False)() for stream in self._streams)
+
+
+@contextlib.contextmanager
+def _log_to_file(path: str):
+    with open(path, 'a', encoding='utf-8', buffering=1) as log_file:
+        original_stdout = sys.stdout
+        original_stderr = sys.stderr
+        sys.stdout = _TeeStream(original_stdout, log_file)
+        sys.stderr = _TeeStream(original_stderr, log_file)
+        print("")
+        print("=" * 55)
+        print(f"Log started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Log file: {os.path.abspath(path)}")
+        try:
+            yield
+        finally:
+            print(f"Log ended: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            print("=" * 55)
+            sys.stdout = original_stdout
+            sys.stderr = original_stderr
 
 
 @contextlib.contextmanager
@@ -385,4 +427,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    with _log_to_file(LOG_FILE):
+        try:
+            main()
+        except Exception:
+            print("Unhandled exception:")
+            traceback.print_exc()
+            raise
